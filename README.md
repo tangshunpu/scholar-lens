@@ -8,7 +8,7 @@
 
 A local-first Chrome extension that annotates Google Scholar with venue rankings (CCF, CAS, XR, JCR, IF) and author roles.
 
-[![release](https://img.shields.io/github/v/release/tangshunpu/shcholar-lens?color=1a73e8)](https://github.com/tangshunpu/shcholar-lens/releases/latest)
+[![release](https://img.shields.io/github/v/release/tangshunpu/scholar-lens?color=1a73e8)](https://github.com/tangshunpu/scholar-lens/releases/latest)
 ![Manifest V3](https://img.shields.io/badge/Chrome-Manifest%20V3-4285f4?logo=googlechrome&logoColor=white)
 ![Chrome / Edge 111+](https://img.shields.io/badge/Chrome%20%2F%20Edge-111%2B-34a853)
 ![permissions](https://img.shields.io/badge/permissions-storage%20only-f9ab00)
@@ -36,7 +36,7 @@ A local-first Chrome extension that annotates Google Scholar with venue rankings
 
 Scholar Lens 目前不在 Chrome 应用商店上架，需要以“已解压的扩展程序”方式加载。支持桌面版 Chrome 111 及以上，以及 Edge 等 Chromium 内核浏览器。
 
-1. 从 [Releases](https://github.com/tangshunpu/shcholar-lens/releases/latest) 下载最新的 `scholar-lens-v*.zip` 并解压，得到 `scholar-lens` 文件夹（也可以直接 `git clone` 本仓库）。把它放在不会被移动或删除的位置，浏览器会一直从这里加载。
+1. 从 [Releases](https://github.com/tangshunpu/scholar-lens/releases/latest) 下载最新的 `scholar-lens-v*.zip` 并解压，得到 `scholar-lens` 文件夹（也可以直接 `git clone` 本仓库）。把它放在不会被移动或删除的位置，浏览器会一直从这里加载。
 2. 打开 `chrome://extensions/`（Edge 为 `edge://extensions/`），开启“开发者模式”。
 3. 点击“加载已解压的扩展程序”，选择里面直接有 `manifest.json` 的那一层文件夹。
 4. 打开或刷新任一 Google Scholar 作者主页或搜索结果页，右侧出现 Scholar Lens 面板即安装成功。
