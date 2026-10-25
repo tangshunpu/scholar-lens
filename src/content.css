@@ -1,0 +1,206 @@
+/* Scholar Lens follows Google Scholar's own look: Arial 13px, #222 / #777 text, #e5e5e5 rules, Scholar blue. */
+#sl-panel,#sl-launcher,.sl-role-dialog{--sl-ink:#222;--sl-gray:#777;--sl-line:#e5e5e5;--sl-soft:#f5f5f5;--sl-border:#dadce0;--sl-link:#1a0dab;--sl-blue:#4d90fe;--sl-blue-dark:#357ae8;--sl-blue-soft:#e8f0fe;--sl-red:#c5221f;--sl-purple:#8430ce;--sl-font:Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif}
+#sl-panel{box-sizing:border-box;background:#fff;color:var(--sl-ink);font:13px/1.45 var(--sl-font);text-align:left;margin:0}
+#sl-panel *{box-sizing:border-box}
+#sl-panel button,#sl-panel input,#sl-panel textarea{font:inherit;color:inherit}
+/* Scholar styles every button (fixed height, min-width, grey fill); start ours from a clean slate. */
+#sl-launcher,#sl-panel button,.sl-annotations button,.sl-role-dialog button{position:static;z-index:auto;box-sizing:border-box;height:auto;min-width:0;max-width:none;line-height:inherit;white-space:normal;user-select:auto}
+#sl-panel button{cursor:pointer}
+#sl-panel button:disabled{opacity:.5;cursor:default}
+#sl-panel [hidden],#sl-panel[hidden],#sl-launcher[hidden]{display:none!important}
+#sl-panel :focus-visible{outline:2px solid var(--sl-blue);outline-offset:1px}
+#sl-panel h3,#sl-panel h4,#sl-panel p{margin:0}
+#sl-panel .sl-visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* Placement: fixed beside the Scholar column, inside the right column under “Cited by”, or after the page. */
+#sl-panel[data-placement="dock"]{position:fixed;top:var(--sl-dock-top,80px);left:var(--sl-dock-left,auto);width:var(--sl-dock-width,320px);max-height:calc(100vh - var(--sl-dock-top,80px) - 12px);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;z-index:90;border:1px solid var(--sl-line);border-radius:4px;box-shadow:0 1px 3px rgba(60,64,67,.12)}
+#sl-panel[data-placement="sidebar"]{position:static;margin:0 0 48px 16px}
+#sl-panel[data-placement="below"]{position:relative;clear:both;width:calc(100% - 32px);max-width:480px;margin:24px auto;border:1px solid var(--sl-line);border-radius:4px}
+
+/* Header mirrors Scholar's “Cited by” section header. */
+#sl-panel .sl-header{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:8px 8px 10px 12px;border-bottom:1px solid var(--sl-line);background:#fff}
+#sl-panel[data-placement="dock"] .sl-header{position:sticky;top:0;z-index:2}
+#sl-panel[data-placement="sidebar"] .sl-header{padding:8px 0 12px 8px}
+#sl-panel .sl-title{display:flex;align-items:center;gap:8px;font-size:15px;font-weight:400;line-height:1.25;color:var(--sl-ink)}
+#sl-panel .sl-logo{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:3px;background:#4285f4;color:#fff;font:700 10px/1 var(--sl-font);letter-spacing:-.02em}
+#sl-panel .sl-version{font-size:11px;color:var(--sl-gray)}
+#sl-panel .sl-header-actions{display:flex;gap:2px}
+#sl-panel .sl-icon{width:28px;height:28px;padding:0;border:0;border-radius:3px;background:none;color:var(--sl-gray);font-size:16px;line-height:28px}
+#sl-panel .sl-icon:hover{background:var(--sl-soft);color:var(--sl-ink)}
+#sl-panel #sl-body{padding:0 12px 12px}
+#sl-panel[data-placement="sidebar"] #sl-body{padding:0 0 0 8px}
+
+#sl-panel .sl-section{padding:12px 0;border-bottom:1px solid var(--sl-line)}
+#sl-panel .sl-section-head{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin-bottom:8px}
+#sl-panel .sl-kicker{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--sl-gray)}
+#sl-panel .sl-sub{font-size:11px;color:var(--sl-gray)}
+#sl-panel .sl-link{padding:0;border:0;background:none;color:var(--sl-link);font-size:12px}
+#sl-panel .sl-link:hover{text-decoration:underline}
+#sl-panel .sl-hint{font-size:11px;line-height:1.5;color:var(--sl-gray);margin:6px 0 0}
+
+/* Insights table follows Scholar's #gsc_rsb_st: right-aligned numbers, thin header rule. */
+#sl-panel .sl-stats{width:100%;border-collapse:collapse;border-spacing:0;font-size:13px;font-variant-numeric:tabular-nums}
+#sl-panel .sl-stats th,#sl-panel .sl-stats td{padding:3px 8px 3px 0;border:0;background:none;font-weight:400;vertical-align:baseline}
+#sl-panel .sl-stats thead th{padding:4px 8px 6px 0;border-bottom:1px solid var(--sl-line);text-align:right;color:var(--sl-ink);white-space:nowrap}
+#sl-panel .sl-stats thead th.sl-hit-col{color:var(--sl-link)}
+#sl-panel .sl-stats tbody th{text-align:left;color:var(--sl-ink);white-space:nowrap}
+#sl-panel .sl-stats td{text-align:right;width:30%}
+#sl-panel .sl-stats td.sl-hit-col{color:var(--sl-link);font-weight:700}
+#sl-panel .sl-stats tbody tr:first-child>*{padding-top:6px}
+#sl-panel .sl-stats .sl-stat-sep>*{padding-top:7px;border-top:1px solid #f0f0f0}
+#sl-panel .sl-stats.sl-no-hits .sl-hit-col{display:none}
+#sl-panel .sl-tier-stat button{padding:0;border:0;background:none;color:var(--sl-link);text-align:left}
+#sl-panel .sl-tier-stat button:hover{text-decoration:underline}
+#sl-panel .sl-tier-stat button[aria-pressed="true"]{font-weight:700}
+#sl-panel .sl-tier-stat button[aria-pressed="true"]::after{content:" ✓"}
+
+/* Filters */
+#sl-panel .sl-rule{font-size:11px;color:var(--sl-gray);margin:-2px 0 10px}
+#sl-panel .sl-group{margin:0 0 12px}
+#sl-panel .sl-group-head{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin-bottom:6px;font-size:12px;font-weight:700;color:var(--sl-ink)}
+#sl-panel .sl-group-actions{display:flex;gap:10px;font-weight:400}
+#sl-panel .sl-chips{display:flex;flex-wrap:wrap;gap:4px}
+#sl-panel .sl-role-chips{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+#sl-panel .sl-chip{position:relative;display:inline-flex;align-items:center;justify-content:center;min-height:26px;padding:3px 8px;border:1px solid var(--sl-border);border-radius:3px;background:#fff;color:#444;font-size:12px;line-height:1.2;white-space:nowrap;cursor:pointer;user-select:none}
+#sl-panel .sl-chip:hover{background:var(--sl-soft)}
+#sl-panel .sl-chip input{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:pointer}
+#sl-panel .sl-chip:has(input:focus-visible){outline:2px solid var(--sl-blue);outline-offset:1px}
+#sl-panel .sl-chip:has(input:checked){background:var(--sl-blue-soft);border-color:var(--sl-blue);color:var(--sl-link)}
+#sl-panel .sl-chip:has(input:disabled){opacity:.45;cursor:default}
+#sl-panel .sl-chip:has(input:disabled) input{cursor:default}
+/* A checked role chip uses that role's row colours, so it doubles as the legend. */
+#sl-panel .sl-role-chips .sl-chip:has(input:checked){background:var(--sl-fill);border-color:var(--sl-accent);color:var(--sl-ink);box-shadow:inset 3px 0 var(--sl-accent)}
+#sl-panel .sl-chip[data-tier="ccf-A"]:has(input:checked){background:var(--sl-red);border-color:var(--sl-red);color:#fff;font-weight:700}
+#sl-panel .sl-chip[data-tier="cas-1"]:has(input:checked){background:var(--sl-purple);border-color:var(--sl-purple);color:#fff;font-weight:700}
+#sl-panel .sl-chip[data-tier="xr-1"]:has(input:checked){background:#3949ab;border-color:#3949ab;color:#fff;font-weight:700}
+#sl-panel .sl-tier-row{display:grid;grid-template-columns:44px minmax(0,1fr);align-items:center;gap:6px;margin-bottom:4px}
+#sl-panel .sl-tier-label{font-size:12px;color:var(--sl-gray)}
+#sl-panel .sl-range{display:flex;align-items:center;gap:10px}
+#sl-panel .sl-range .sl-group-head{margin:0;white-space:nowrap}
+#sl-panel .sl-year{display:flex;align-items:center;gap:6px;flex:1;min-width:0;color:var(--sl-gray)}
+#sl-panel input:not([type=checkbox]),#sl-panel textarea{width:100%;min-width:0;padding:5px 8px;border:1px solid var(--sl-border);border-radius:3px;background:#fff;color:var(--sl-ink);font-size:13px}
+#sl-panel input:not([type=checkbox]):focus,#sl-panel textarea:focus{border-color:var(--sl-blue);outline:none}
+#sl-panel input[type=checkbox]{accent-color:var(--sl-blue);margin:0;width:13px;height:13px;flex-shrink:0}
+#sl-panel .sl-search{margin:0 0 10px}
+#sl-panel .sl-result{padding:8px 10px;border-radius:3px;background:var(--sl-soft)}
+#sl-panel .sl-condition{font-size:12px;color:var(--sl-ink);margin:0 0 6px;overflow-wrap:anywhere}
+#sl-panel .sl-condition.sl-empty{color:var(--sl-gray)}
+#sl-panel .sl-switch{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;column-gap:7px;font-size:13px;cursor:pointer}
+#sl-panel .sl-switch small{grid-column:2;font-size:11px;color:var(--sl-gray)}
+
+/* Venues */
+#sl-panel .sl-venues{max-height:300px;overflow:auto;scrollbar-width:thin}
+#sl-panel .sl-venues details{border-bottom:1px solid #f0f0f0}
+#sl-panel .sl-venues summary{display:flex;align-items:center;gap:7px;padding:6px 2px 6px 0;cursor:pointer;list-style:none}
+#sl-panel .sl-venues summary::-webkit-details-marker{display:none}
+#sl-panel .sl-venues summary::after{content:"›";color:#999;width:8px;text-align:center;transition:transform .15s}
+#sl-panel .sl-venues details[open] summary::after{transform:rotate(90deg)}
+#sl-panel .sl-venue-name{flex:1;min-width:0;overflow-wrap:anywhere;font-size:13px}
+#sl-panel .sl-venue-count{font-size:12px;color:var(--sl-gray);font-variant-numeric:tabular-nums;white-space:nowrap}
+#sl-panel .sl-venue-count.sl-venue-hit{color:var(--sl-link);font-weight:700}
+#sl-panel .sl-venues ul{list-style:none;margin:0;padding:0 0 6px 20px}
+#sl-panel .sl-venues li{padding:3px 0 3px 6px;border-left:2px solid transparent}
+#sl-panel .sl-venues li.sl-li-hit{border-left-color:var(--sl-blue)}
+#sl-panel .sl-venues li button{padding:0;border:0;background:none;color:var(--sl-link);font-size:12px;line-height:1.4;text-align:left}
+#sl-panel .sl-venues li button:hover{text-decoration:underline}
+#sl-panel .sl-venues li small{display:block;font-size:11px;color:var(--sl-gray)}
+#sl-panel .sl-empty-hint{margin:0 0 8px}
+
+/* Author identification details (collapsed by default) */
+#sl-panel .sl-more{padding:4px 0}
+#sl-panel .sl-details{padding:6px 0}
+#sl-panel .sl-details+.sl-details{border-top:1px solid #f0f0f0}
+#sl-panel .sl-details summary{font-size:12px;color:var(--sl-link);cursor:pointer}
+#sl-panel .sl-details summary:hover{text-decoration:underline}
+#sl-panel .sl-name-choice{display:flex;align-items:flex-start;gap:7px;margin-top:8px;cursor:pointer}
+#sl-panel .sl-name-choice input{margin-top:3px}
+#sl-panel .sl-name-choice span{min-width:0;overflow-wrap:anywhere}
+#sl-panel .sl-name-choice strong{display:block;font-size:12px;font-weight:400}
+#sl-panel .sl-name-choice small{display:block;font-size:11px;color:var(--sl-gray)}
+#sl-panel .sl-name-choice.sl-name-conflict{cursor:default}
+#sl-panel .sl-author-settings textarea{margin:6px 0;font-size:12px}
+#sl-panel #sl-compat{margin:4px 0}
+
+/* Buttons follow Scholar's flat buttons; the primary action uses Scholar blue. */
+#sl-panel .sl-actions,.sl-role-dialog .sl-actions{display:flex;gap:8px;margin-top:12px}
+#sl-panel .sl-actions .sl-button{flex:1}
+#sl-panel .sl-button,.sl-role-dialog .sl-button{height:32px;padding:0 12px;border:1px solid var(--sl-border);border-radius:3px;background:#fff;color:#444;font:13px var(--sl-font);cursor:pointer}
+#sl-panel .sl-button:hover,.sl-role-dialog .sl-button:hover{background:var(--sl-soft)}
+#sl-panel .sl-primary,.sl-role-dialog .sl-primary{background:var(--sl-blue);border-color:var(--sl-blue);color:#fff}
+#sl-panel .sl-primary:hover,.sl-role-dialog .sl-primary:hover{background:var(--sl-blue-dark);border-color:var(--sl-blue-dark)}
+#sl-panel .sl-foot{font-size:11px;color:#999;margin-top:10px;line-height:1.5}
+
+#sl-launcher{position:fixed;top:var(--sl-dock-top,80px);left:var(--sl-dock-left,auto);z-index:90;writing-mode:vertical-rl;padding:12px 6px;border:1px solid var(--sl-line);border-radius:4px;background:#fff;color:var(--sl-link);font:13px/1 var(--sl-font);letter-spacing:.04em;cursor:pointer;box-shadow:0 1px 3px rgba(60,64,67,.12)}
+#sl-launcher:hover{background:var(--sl-soft)}
+#sl-launcher:focus-visible{outline:2px solid var(--sl-blue);outline-offset:2px}
+
+/* Row annotations */
+.sl-annotations{display:flex;flex-wrap:wrap;align-items:center;gap:4px;margin:4px 0 2px;font:11px/1.5 Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif}
+.sl-badge{display:inline-block;border:1px solid transparent;border-radius:3px;padding:0 5px;white-space:nowrap}
+.sl-ccf-b{background:#e8f0fe;color:#1967d2;border-color:#d2e3fc}
+.sl-ccf-c{background:#e6f4ea;color:#137333;border-color:#ceead6}
+.sl-cas{background:#f3e8fd;color:#7627bb;border-color:#e9d2fd}
+.sl-xr{background:#e8eaf6;color:#3949ab;border-color:#c5cae9}
+.sl-badge.sl-xr-warning{background:#fce8e6;color:#c5221f;border-color:#f6aea9;font-weight:700}
+.sl-jcr{background:#e4f7fb;color:#007b83;border-color:#cbf0f8}
+.sl-if{background:#fef7e0;color:#b06000;border-color:#feefc3}
+.sl-author{background:var(--sl-fill,#fef7e0);color:#3c4043;border-color:var(--sl-accent,#f9ab00)}
+.sl-muted{background:#f1f3f4;color:#5f6368;border-color:#e8eaed}
+.sl-badge.sl-name-warning,#sl-panel .sl-name-warning{background:#fce8e6;color:#a50e0e;border-radius:3px}
+/* The two headline tiers stay solid and distinct, including when adjacent. */
+.sl-badge.sl-ccf-a{background:#c5221f;color:#fff;border-color:#a50e0e;font-weight:700}
+.sl-badge.sl-cas-one{background:#8430ce;color:#fff;border-color:#681da8;font-weight:700}
+.sl-badge.sl-xr-one{background:#3949ab;color:#fff;border-color:#283593;font-weight:700}
+.sl-edit-role,.sl-edit-venue{padding:0 4px;border:0;background:none;color:#1a0dab;font:11px/1.5 Arial,sans-serif;cursor:pointer;opacity:.75}
+.sl-annotations .sl-edit-role:hover,.sl-annotations .sl-edit-venue:hover{opacity:1;text-decoration:underline;background:none}
+mark.sl-name{background:none;color:inherit;font-weight:700;padding:0 1px;box-shadow:inset 0 -2px 0 var(--sl-accent,#bdc1c6)}
+
+/* Role colours (Google palette tints), shared by rows, chips and badges. */
+.sl-author-hit[data-sl-role="first"],#sl-panel .sl-chip[data-role="first"],.sl-author[data-role="first"]{--sl-fill:#fef7e0;--sl-accent:#f9ab00}
+.sl-author-hit[data-sl-role="second"],#sl-panel .sl-chip[data-role="second"],.sl-author[data-role="second"]{--sl-fill:#feefe3;--sl-accent:#fa7b17}
+.sl-author-hit[data-sl-role="cofirst"],#sl-panel .sl-chip[data-role="cofirst"],.sl-author[data-role="cofirst"]{--sl-fill:#e6f4ea;--sl-accent:#34a853}
+.sl-author-hit[data-sl-role="corresponding"],#sl-panel .sl-chip[data-role="corresponding"],.sl-author[data-role="corresponding"]{--sl-fill:#f3e8fd;--sl-accent:#a142f4}
+.sl-author-hit[data-sl-role="last"],#sl-panel .sl-chip[data-role="last"],.sl-author[data-role="last"]{--sl-fill:#e8f0fe;--sl-accent:#4285f4}
+.sl-author-hit[data-sl-role="middle"],#sl-panel .sl-chip[data-role="middle"],.sl-author[data-role="middle"]{--sl-fill:#e4f7fb;--sl-accent:#12b5cb}
+/* Only used when no role is selected, so it never sits next to the last-author blue. */
+.sl-author-hit[data-sl-role="match"]{--sl-fill:#e8f0fe;--sl-accent:#4d90fe}
+
+/* Paint every cell of a matching paper, including citation count and year. */
+html.sl-unified .sl-author-hit{background:var(--sl-fill)!important}
+html.sl-unified .gsc_a_tr.sl-author-hit>td{background:var(--sl-fill)!important}
+/* The accent goes on the first cell: on your own profile that is Scholar's checkbox column, not the title. */
+html.sl-unified .gsc_a_tr.sl-author-hit>td:first-child,html.sl-unified .gs_r.sl-author-hit{box-shadow:inset 3px 0 var(--sl-accent)}
+
+.sl-filtered{display:none!important}
+html.sl-unified .gsc_a_tr.sl-managed:not(.sl-filtered),html.sl-unified #gsc_a_b .gsc_a_tr.sl-managed:not(.sl-filtered){display:table-row!important}
+html.sl-unified .sl-managed.sl-filtered,html.sl-unified #gsc_a_b .sl-managed.sl-filtered{display:none!important}
+
+/* One visible set of controls. Legacy state is untouched and returns on disable. */
+html.sl-unified #gsvs-panel,html.sl-unified #author-highlighter-controls .toggle-container:has(#visibility-toggle),html.sl-unified #author-highlighter-controls .time-filter-container,html.sl-unified #highlighted-metrics,html.sl-unified #author-highlighter-controls .filter-container{display:none!important}
+
+.sl-role-dialog{border:0;border-radius:4px;padding:24px;max-width:440px;color:#222;font:13px/1.5 Arial,"PingFang SC","Microsoft YaHei",sans-serif;box-shadow:0 4px 16px rgba(0,0,0,.2)}
+.sl-role-dialog::backdrop{background:rgba(0,0,0,.3)}
+.sl-role-dialog h3{margin:0 0 8px;font-size:16px;font-weight:400}
+.sl-role-dialog form>label{display:flex;gap:8px;margin:8px 0}
+.sl-role-dialog input{accent-color:#4d90fe}
+.sl-role-dialog .sl-hint{font-size:11px;color:#777;line-height:1.5;margin:10px 0}
+/* Venue confirmation */
+.sl-venue-dialog{width:min(560px,calc(100vw - 32px));max-width:none;max-height:calc(100vh - 48px)}
+.sl-venue-dialog .sl-venue-raw{margin:0 0 4px;padding:8px 10px;border-radius:3px;background:#f5f5f5;color:#222;overflow-wrap:anywhere}
+.sl-venue-dialog .sl-venue-heading{margin:14px 0 6px;font-size:11px;font-weight:700;letter-spacing:.06em;color:#777}
+.sl-venue-dialog .sl-venue-options{max-height:220px;overflow:auto;border-top:1px solid #f0f0f0}
+.sl-venue-dialog .sl-venue-results:empty{display:none}
+.sl-venue-dialog .sl-venue-results{margin-top:6px}
+.sl-venue-dialog form>.sl-venue-option{margin-top:8px;border:0}
+.sl-venue-dialog .sl-venue-option{display:flex;align-items:flex-start;gap:8px;margin:0;padding:7px 4px;border-bottom:1px solid #f0f0f0;cursor:pointer}
+.sl-venue-dialog .sl-venue-option:hover{background:#f8f9fa}
+.sl-venue-dialog .sl-venue-option input{margin-top:3px;flex-shrink:0}
+.sl-venue-dialog .sl-venue-option span{min-width:0;overflow-wrap:anywhere}
+.sl-venue-dialog .sl-venue-option strong{display:block;font-weight:400;color:#1a0dab}
+.sl-venue-dialog .sl-venue-option small{display:block;font-size:11px;color:#777}
+.sl-venue-dialog .sl-venue-option .sl-venue-metrics{color:#444}
+.sl-venue-dialog .sl-venue-search{width:100%;box-sizing:border-box;height:32px;padding:5px 8px;border:1px solid #dadce0;border-radius:3px;font:13px Arial,"PingFang SC","Microsoft YaHei",sans-serif;color:#222;background:#fff}
+.sl-venue-dialog .sl-venue-search:focus{border-color:#4d90fe;outline:none}
+.sl-venue-dialog .sl-button:disabled{opacity:.5;cursor:default}
+.sl-venue-dialog [hidden]{display:none!important}
+.sl-annotations .sl-edit-venue.sl-venue-pending{color:#c5221f;opacity:1}

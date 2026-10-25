@@ -1,0 +1,5678 @@
+{
+  "version": "2026-10-23",
+  "venues": [
+    {
+      "id": "ccf-e1a84f38df5d",
+      "short": "PPoPP",
+      "displayName": "PPoPP",
+      "aliases": [
+        "PPoPP",
+        "SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+        "ACM SIGPLAN Symp. on Principles & Practice of Parallel Programming"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-b88b36df0a5d",
+      "short": "FAST",
+      "displayName": "FAST",
+      "aliases": [
+        "FAST",
+        "USENIX FAST",
+        "Conference on File and Storage Technologies",
+        "USENIX Conf. on File and Storage Technologies"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-009976aa443c",
+      "short": "DAC",
+      "displayName": "DAC",
+      "aliases": [
+        "DAC",
+        "Design Automation Conference",
+        "Design Automation Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-7dec0a183da8",
+      "short": "HPCA",
+      "displayName": "HPCA",
+      "aliases": [
+        "HPCA",
+        "International Symposium on High Performance Computer Architecture",
+        "IEEE Int. Symp. on High Performance Computer Architecture"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-23cdd8d4ceb2",
+      "short": "MICRO",
+      "displayName": "MICRO",
+      "aliases": [
+        "MICRO",
+        "International Symposium on Microarchitecture",
+        "IEEE/ACM Int. Symp. on Microarchitecture"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-25648a634e1a",
+      "short": "SC",
+      "displayName": "SC",
+      "aliases": [
+        "SC",
+        "ACM IEEE SC",
+        "Supercomputing",
+        "IEEE ACM International Conference for High Performance Computing Networking Storage and Analysis",
+        "International Conference for High Performance Computing Networking Storage and Analysis",
+        "International Conference on High Performance Computing Networking Storage and Analysis",
+        "International Conference for High Performance Computing, Networking, Storage, and Analysis",
+        "Int. Conf. for High Performance Computing, Networking, Storage, and Analysis"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-9f74082e3a33",
+      "short": "ASPLOS",
+      "displayName": "ASPLOS",
+      "aliases": [
+        "ASPLOS",
+        "International Conference on Architectural Support for Programming Languages and Operating Systems",
+        "Int. Conf. on Architectural Support for Programming Languages and Operating Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-20404feef733",
+      "short": "ISCA",
+      "displayName": "ISCA",
+      "aliases": [
+        "ISCA",
+        "International Symposium on Computer Architecture",
+        "Int. Symp. on Computer Architecture"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-1d90dd158f45",
+      "short": "ACM SIGOPS ATC",
+      "displayName": "ATC",
+      "aliases": [
+        "ACM SIGOPS ATC",
+        "ATC",
+        "USENIX ATC",
+        "ACM ATC",
+        "USENIX Annual Technical Conference",
+        "USENIX Annual Technical Conf",
+        "ACM SIGOPS Annual Technical Conference",
+        "SIGOPS Annual Technical Conference",
+        "ACM SIGOPS Annual Technical Conf."
+      ],
+      "sources": [
+        "https://atc.sigops.org/2026/cfp.html",
+        "https://www.usenix.org/conference/osdi24/call-for-papers"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-ec0b2cac7f8b",
+      "short": "EuroSys",
+      "displayName": "EuroSys",
+      "aliases": [
+        "EuroSys",
+        "ACM EuroSys",
+        "European Conference on Computer Systems",
+        "European Conference in Computer Systems",
+        "European Conf. on Computer Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-eb89ba0678c7",
+      "short": "HPDC",
+      "displayName": "HPDC",
+      "aliases": [
+        "HPDC",
+        "The International ACM Symposium on High-Performance Parallel and Distributed Computing",
+        "The Int. ACM Symp. on High-Performance Parallel and Distributed Computing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-9eb7052be975",
+      "short": "SoCC",
+      "displayName": "SoCC",
+      "aliases": [
+        "SoCC",
+        "Symposium on Cloud Computing",
+        "ACM Symp. on Cloud Computing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-83a311a60e75",
+      "short": "SPAA",
+      "displayName": "SPAA",
+      "aliases": [
+        "SPAA",
+        "Symposium on Parallelism in Algorithms and Architectures",
+        "ACM Symp. on Parallelism in Algorithms and Architectures"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-84da41f34338",
+      "short": "PODC",
+      "displayName": "PODC",
+      "aliases": [
+        "PODC",
+        "Symposium on Principles of Distributed Computing",
+        "ACM Symp. on Principles of Distributed Computing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-8998c8ae6974",
+      "short": "FPGA",
+      "displayName": "FPGA",
+      "aliases": [
+        "FPGA",
+        "ACM/SIGDA International Symposium on Field-Programmable Gate Arrays",
+        "ACM/SIGDA Int. Symp. on Field-Programmable Gate Arrays"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-0b316affa53b",
+      "short": "CGO",
+      "displayName": "CGO",
+      "aliases": [
+        "CGO",
+        "The International Symposium on Code Generation and Optimization",
+        "The Int. Symp. on Code Generation and Optimization"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-c3313ffc837e",
+      "short": "DATE",
+      "displayName": "DATE",
+      "aliases": [
+        "DATE",
+        "Design, Automation & Test in Europe"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-0a64fa7f7a14",
+      "short": "HOT CHIPS",
+      "displayName": "HOT CHIPS",
+      "aliases": [
+        "HOT CHIPS",
+        "Hot Chips: A Symposium on High Performance Chips",
+        "Hot Chips: A Symp. on High Performance Chips"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-28acaa18c29b",
+      "short": "CLUSTER",
+      "displayName": "CLUSTER",
+      "aliases": [
+        "CLUSTER",
+        "International Conference on Cluster Computing",
+        "IEEE Int. Conf. on Cluster Computing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-9f751bc401f2",
+      "short": "ICCD",
+      "displayName": "ICCD",
+      "aliases": [
+        "ICCD",
+        "International Conference on Computer Design",
+        "Int. Conf. on Computer Design"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-9178bddfe949",
+      "short": "ICCAD",
+      "displayName": "ICCAD",
+      "aliases": [
+        "ICCAD",
+        "International Conference on Computer-Aided Design",
+        "Int. Conf. on Computer-Aided Design"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-959b190b03f0",
+      "short": "ICDCS",
+      "displayName": "ICDCS",
+      "aliases": [
+        "ICDCS",
+        "International Conference on Distributed Computing Systems",
+        "IEEE Int. Conf. on Distributed Computing Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-180995725b96",
+      "short": "CODES+ ISSS",
+      "displayName": "CODES+ ISSS",
+      "aliases": [
+        "CODES+ ISSS",
+        "International Conference on Hardware/Software Co-design and System Synthesis",
+        "Int. Conf. on Hardware/Software Co-design and System Synthesis"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-de13dc288a6f",
+      "short": "HiPEAC",
+      "displayName": "HiPEAC",
+      "aliases": [
+        "HiPEAC",
+        "International Conference on High Performance and Embedded Architectures and Compilers",
+        "Int. Conf. on High Performance and Embedded Architectures and Compilers"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-58621d950758",
+      "short": "SIG- METRICS",
+      "displayName": "SIG- METRICS",
+      "aliases": [
+        "SIG- METRICS",
+        "International Conference on Measurement and Modeling of Computer Systems",
+        "Int. Conf. on Measurement and Modeling of Computer Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-093bceb7986c",
+      "short": "PACT",
+      "displayName": "PACT",
+      "aliases": [
+        "PACT",
+        "International Conference on Parallel Architectures and Compilation Techniques",
+        "Int. Conf. on Parallel Architectures and Compilation Techniques"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-ac2861a8d69f",
+      "short": "ICPP",
+      "displayName": "ICPP",
+      "aliases": [
+        "ICPP",
+        "International Conference on Parallel Processing",
+        "Int. Conf. on Parallel Processing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-9995ce6a62e5",
+      "short": "ICS",
+      "displayName": "ICS",
+      "aliases": [
+        "ICS",
+        "International Conference on Supercomputing",
+        "Int. Conf. on Supercomputing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-26f4faca604f",
+      "short": "VEE",
+      "displayName": "VEE",
+      "aliases": [
+        "VEE",
+        "International Conference on Virtual Execution Environments",
+        "Int. Conf. on Virtual Execution Environments"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-d741d7d397cd",
+      "short": "IPDPS",
+      "displayName": "IPDPS",
+      "aliases": [
+        "IPDPS",
+        "International Parallel & Distributed Processing Symposium",
+        "IEEE Int. Parallel & Distributed Processing Symp."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-c079eccfc279",
+      "short": "Performance",
+      "displayName": "Performance",
+      "aliases": [
+        "Performance",
+        "International Symposium on Computer Performance, Modeling, Measurements and Evaluation",
+        "Int. Symp. on Computer Performance, Modeling, Measurements and Evaluation"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-60a22546fb1c",
+      "short": "ITC",
+      "displayName": "ITC",
+      "aliases": [
+        "ITC",
+        "International Test Conference",
+        "Int. Test Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-fe90e9eca804",
+      "short": "LISA",
+      "displayName": "LISA",
+      "aliases": [
+        "LISA",
+        "Large Installation System Administration Conference",
+        "Large Installation System Administration Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-1b24d739b9ab",
+      "short": "MSST",
+      "displayName": "MSST",
+      "aliases": [
+        "MSST",
+        "Mass Storage Systems and Technologies"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-b549a21cd617",
+      "short": "RTAS",
+      "displayName": "RTAS",
+      "aliases": [
+        "RTAS",
+        "Real-Time and Embedded Technology and Applications Symposium",
+        "IEEE Real-Time and Embedded Technology and Applications Symp."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-3653f818d954",
+      "short": "Euro-Par",
+      "displayName": "Euro-Par",
+      "aliases": [
+        "Euro-Par",
+        "European Conference on Parallel and Distributed Computing Springer",
+        "European Conf. on Parallel and Distributed Computing Springer"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-b5a41110f50d",
+      "short": "ISCAS",
+      "displayName": "ISCAS",
+      "aliases": [
+        "ISCAS",
+        "International Symposium on Circuits and Systems",
+        "IEEE Int. Symp. on Circuits and Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-b3bf65f195de",
+      "short": "CF",
+      "displayName": "CF",
+      "aliases": [
+        "CF",
+        "International Conference on Computing Frontiers",
+        "ACM Int. Conf. on Computing Frontiers"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-b9a4dadfb258",
+      "short": "SYSTOR",
+      "displayName": "SYSTOR",
+      "aliases": [
+        "SYSTOR",
+        "International Systems and Storage Conference",
+        "ACM Int. Systems and Storage Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-1be56702395d",
+      "short": "NOCS",
+      "displayName": "NOCS",
+      "aliases": [
+        "NOCS",
+        "International Symposium on Networks-on-Chip",
+        "ACM/IEEE Int. Symp. on Networks-on-Chip"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-ba9b082f1064",
+      "short": "ASAP",
+      "displayName": "ASAP",
+      "aliases": [
+        "ASAP",
+        "International Conference on Application-Specific Systems, Architectures, and Processors",
+        "IEEE Int. Conf. on Application-Specific Systems, Architectures, and Processors"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-1ace5248c826",
+      "short": "ASP-DAC",
+      "displayName": "ASP-DAC",
+      "aliases": [
+        "ASP-DAC",
+        "Asia and South Pacific Design Automation Conference",
+        "Asia and South Pacific Design Automation Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-748867db5ac4",
+      "short": "ETS",
+      "displayName": "ETS",
+      "aliases": [
+        "ETS",
+        "European Test Symposium",
+        "IEEE European Test Symp."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-0f59d719dfa1",
+      "short": "FPL",
+      "displayName": "FPL",
+      "aliases": [
+        "FPL",
+        "International Conference on Field-Programmable Logic and Applications",
+        "Int. Conf. on Field-Programmable Logic and Applications"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-621db168a19b",
+      "short": "FCCM",
+      "displayName": "FCCM",
+      "aliases": [
+        "FCCM",
+        "Symposium on Field-Programmable Custom Computing Machines",
+        "IEEE Symp. on Field-Programmable Custom Computing Machines"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-7ccb7e2afdd5",
+      "short": "GLSVLSI",
+      "displayName": "GLSVLSI",
+      "aliases": [
+        "GLSVLSI",
+        "Great Lakes Symposium on VLSI",
+        "Great Lakes Symp. on VLSI"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-467506fc4aa7",
+      "short": "ATS",
+      "displayName": "ATS",
+      "aliases": [
+        "ATS",
+        "Asian Test Symposium",
+        "IEEE Asian Test Symp."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-ebe0c5a0b8c1",
+      "short": "HPCC",
+      "displayName": "HPCC",
+      "aliases": [
+        "HPCC",
+        "International Conference on High Performance Computing and Communications",
+        "IEEE Int. Conf. on High Performance Computing and Communications"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-d2570593089b",
+      "short": "HiPC",
+      "displayName": "HiPC",
+      "aliases": [
+        "HiPC",
+        "International Conference on High Performance Computing, Data and Analytics",
+        "IEEE Int. Conf. on High Performance Computing, Data and Analytics"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-79388035d5da",
+      "short": "MASCOTS",
+      "displayName": "MASCOTS",
+      "aliases": [
+        "MASCOTS",
+        "International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems",
+        "Int. Symp. on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-d7d6468b3dc5",
+      "short": "ISPA",
+      "displayName": "ISPA",
+      "aliases": [
+        "ISPA",
+        "International Symposium on Parallel and Distributed Processing with Applications",
+        "IEEE Int. Symp. on Parallel and Distributed Processing with Applications"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-5cbd6950d0ca",
+      "short": "CCGRID",
+      "displayName": "CCGRID",
+      "aliases": [
+        "CCGRID",
+        "International Symposium on Cluster, Cloud and Grid Computing",
+        "IEEE/ACM Int. Symp. on Cluster, Cloud and Grid Computing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-486051a1570b",
+      "short": "NPC",
+      "displayName": "NPC",
+      "aliases": [
+        "NPC",
+        "IFIP International Conference on Network and Parallel Computing",
+        "IFIP Int. Conf. on Network and Parallel Computing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-69e0e8d0d1d5",
+      "short": "ICA3PP",
+      "displayName": "ICA3PP",
+      "aliases": [
+        "ICA3PP",
+        "International Conference on Algorithms and Architectures for Parallel Processing",
+        "Int. Conf. on Algorithms and Architectures for Parallel Processing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-c6e133db7088",
+      "short": "CASES",
+      "displayName": "CASES",
+      "aliases": [
+        "CASES",
+        "International Conference on Compilers, Architectures, and Synthesis for Embedded Systems",
+        "Int. Conf. on Compilers, Architectures, and Synthesis for Embedded Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-0bb063583427",
+      "short": "FPT",
+      "displayName": "FPT",
+      "aliases": [
+        "FPT",
+        "International Conference on Field-Programmable Technology",
+        "Int. Conf. on Field-Programmable Technology"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-c9acb37d6cf2",
+      "short": "ICPADS",
+      "displayName": "ICPADS",
+      "aliases": [
+        "ICPADS",
+        "International Conference on Parallel and Distributed Systems",
+        "Int. Conf. on Parallel and Distributed Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-b3286738d2d5",
+      "short": "ISLPED",
+      "displayName": "ISLPED",
+      "aliases": [
+        "ISLPED",
+        "International Symposium on Low Power Electronics and Design",
+        "Int. Symp. on Low Power Electronics and Design"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-87f0ecee1692",
+      "short": "ISPD",
+      "displayName": "ISPD",
+      "aliases": [
+        "ISPD",
+        "International Symposium on Physical Design",
+        "Int. Symp. on Physical Design"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-5d217d6847a5",
+      "short": "HOTI",
+      "displayName": "HOTI",
+      "aliases": [
+        "HOTI",
+        "Symposium on High-Performance Interconnects",
+        "IEEE Symp. on High-Performance Interconnects"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-9de80e3dd8f2",
+      "short": "VTS",
+      "displayName": "VTS",
+      "aliases": [
+        "VTS",
+        "VLSI Test Symposium",
+        "IEEE VLSI Test Symp."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-3624f489766a",
+      "short": "ITC-Asia",
+      "displayName": "ITC-Asia",
+      "aliases": [
+        "ITC-Asia",
+        "International Test Conference in Asia",
+        "Int. Test Conf. in Asia"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-9ec33663bc0d",
+      "short": "SEC",
+      "displayName": "SEC (Edge Computing)",
+      "aliases": [
+        "SEC",
+        "Symposium on Edge Computing",
+        "ACM/IEEE Symp. on Edge Computing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-7220ddfea19b",
+      "short": "NAS",
+      "displayName": "NAS",
+      "aliases": [
+        "NAS",
+        "International Conference on Networking, Architecture and Storages",
+        "Int. Conf. on Networking, Architecture and Storages"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-a49c7a95afc9",
+      "short": "HotStorage",
+      "displayName": "HotStorage",
+      "aliases": [
+        "HotStorage"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-beee5db65c32",
+      "short": "APPT",
+      "displayName": "APPT",
+      "aliases": [
+        "APPT",
+        "International Symposium on Advanced Parallel Processing Technology",
+        "Int. Symp. on Advanced Parallel Processing Technology"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-0233960a122f",
+      "short": "JCC",
+      "displayName": "JCC",
+      "aliases": [
+        "JCC",
+        "International Conference on JointCloud Computing",
+        "Int. Conf. on JointCloud Computing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-799d08d7e00d",
+      "short": "SIGCOMM",
+      "displayName": "SIGCOMM",
+      "aliases": [
+        "SIGCOMM",
+        "International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+        "ACM Int. Conf. on Applications, Technologies, Architectures, and Protocols for Computer Communication"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-c0a17cf893b6",
+      "short": "MobiCom",
+      "displayName": "MobiCom",
+      "aliases": [
+        "MobiCom",
+        "ACM MobiCom",
+        "MOBICOM",
+        "Annual International Conference on Mobile Computing and Networking",
+        "International Conference on Mobile Computing and Networking",
+        "ACM Int. Conf. on Mobile Computing and Networking"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-9af4a7735803",
+      "short": "INFOCOM",
+      "displayName": "INFOCOM",
+      "aliases": [
+        "INFOCOM",
+        "IEEE INFOCOM",
+        "IEEE Conference on Computer Communications",
+        "Conference on Computer Communications",
+        "International Conference on Computer Communications",
+        "IEEE Int. Conf. on Computer Communications"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-e2b62ef41c22",
+      "short": "NSDI",
+      "displayName": "NSDI",
+      "aliases": [
+        "NSDI",
+        "USENIX NSDI",
+        "USENIX Symposium on Networked Systems Design and Implementation",
+        "Symposium on Networked Systems Design and Implementation",
+        "Networked Systems Design and Implementation",
+        "Symposium on Network System Design and Implementation",
+        "Symp. on Network System Design and Implementation"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-fa00f1ac07dd",
+      "short": "SenSys",
+      "displayName": "SenSys",
+      "aliases": [
+        "SenSys",
+        "Conference on Embedded Networked Sensor Systems",
+        "ACM Conf. on Embedded Networked Sensor Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-1d335d5900ee",
+      "short": "CoNEXT",
+      "displayName": "CoNEXT",
+      "aliases": [
+        "CoNEXT",
+        "International Conference on Emerging Networking Experiments and Technologies",
+        "ACM Int. Conf. on Emerging Networking Experiments and Technologies"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-b7236ec5d8d0",
+      "short": "SECON",
+      "displayName": "SECON",
+      "aliases": [
+        "SECON",
+        "International Conference on Sensing, Communication, and Networking",
+        "IEEE Int. Conf. on Sensing, Communication, and Networking"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-ff13b085afc8",
+      "short": "IPSN",
+      "displayName": "IPSN",
+      "aliases": [
+        "IPSN",
+        "International Conference on Information Processing in Sensor Networks",
+        "Int. Conf. on Information Processing in Sensor Networks"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-7278c7db1daa",
+      "short": "MobiSys",
+      "displayName": "MobiSys",
+      "aliases": [
+        "MobiSys",
+        "International Conference on Mobile Systems, Applications, and Services",
+        "ACM Int. Conf. on Mobile Systems, Applications, and Services"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-3c79bca2a40d",
+      "short": "ICNP",
+      "displayName": "ICNP",
+      "aliases": [
+        "ICNP",
+        "International Conference on Network Protocols",
+        "IEEE Int. Conf. on Network Protocols"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-8a6afbbc2f35",
+      "short": "MobiHoc",
+      "displayName": "MobiHoc",
+      "aliases": [
+        "MobiHoc",
+        "ACM MobiHoc",
+        "ACM International Symposium on Mobile Ad Hoc Networking and Computing",
+        "International Symposium on Mobile Ad Hoc Networking and Computing",
+        "Mobile Ad Hoc Networking and Computing",
+        "International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing",
+        "Int. Symp. on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing"
+      ],
+      "sources": [
+        "https://dl.acm.org/conference/mobihoc"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-d8fe89fe107e",
+      "short": "NOSSDAV",
+      "displayName": "NOSSDAV",
+      "aliases": [
+        "NOSSDAV",
+        "International Workshop on Network and Operating System Support for Digital Audio and Video",
+        "Int. Workshop on Network and Operating System Support for Digital Audio and Video"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-80f1d9d6eda1",
+      "short": "IWQoS",
+      "displayName": "IWQoS",
+      "aliases": [
+        "IWQoS",
+        "IEEE/ACM International Symposium on Quality of Service",
+        "International Workshop on Quality of Service",
+        "IEEE/ACM Int. Workshop on Quality of Service"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-08b4f1122b2a",
+      "short": "IMC",
+      "displayName": "IMC",
+      "aliases": [
+        "IMC",
+        "Internet Measurement Conference",
+        "ACM Internet Measurement Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-8380e347e6ce",
+      "short": "ANCS",
+      "displayName": "ANCS",
+      "aliases": [
+        "ANCS",
+        "Symposium on Architectures for Networking and Communication Systems",
+        "ACM/IEEE Symp. on Architectures for Networking and Communication Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-a361ebd1f04c",
+      "short": "APNOMS",
+      "displayName": "APNOMS",
+      "aliases": [
+        "APNOMS",
+        "Asia-Pacific Network Operations and Management Symposium",
+        "Asia-Pacific Network Operations and Management Symp."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-cb2e3ab2368e",
+      "short": "FORTE",
+      "displayName": "FORTE",
+      "aliases": [
+        "FORTE",
+        "International Conference on Formal Techniques for Distributed Objects, Components, and Systems",
+        "Int. Conf. on Formal Techniques for Distributed Objects, Components, and Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-55225a4efa23",
+      "short": "LCN",
+      "displayName": "LCN",
+      "aliases": [
+        "LCN",
+        "Conference on Local Computer Networks",
+        "IEEE Conf. on Local Computer Networks"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-c390460a55b0",
+      "short": "GLOBECOM",
+      "displayName": "GLOBECOM",
+      "aliases": [
+        "GLOBECOM",
+        "Global Communications Conference",
+        "IEEE Global Communications Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-1df6044c13a8",
+      "short": "ICC",
+      "displayName": "ICC",
+      "aliases": [
+        "ICC",
+        "International Conference on Communications",
+        "IEEE Int. Conf. on Communications"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-cad764a38927",
+      "short": "ICCCN",
+      "displayName": "ICCCN",
+      "aliases": [
+        "ICCCN",
+        "International Conference on Computer Communications and Networks",
+        "IEEE Int. Conf. on Computer Communications and Networks"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-271f066481e4",
+      "short": "MASS",
+      "displayName": "MASS",
+      "aliases": [
+        "MASS",
+        "IEEE MASS",
+        "IEEE International Conference on Mobile Ad-Hoc and Sensor Systems",
+        "IEEE International Conference on Mobile Ad-Hoc and Smart Systems",
+        "International Conference on Mobile Ad-Hoc and Smart Systems",
+        "International Conference on Mobile Adhoc and Sensor Systems",
+        "IEEE Int. Conf. on Mobile Adhoc and Sensor Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-85f831867863",
+      "short": "P2P",
+      "displayName": "P2P",
+      "aliases": [
+        "P2P",
+        "International Conference on Peer-to-Peer Computing",
+        "IEEE Int. Conf. on Peer-to-Peer Computing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-9d8ebb67f5ed",
+      "short": "IPCCC",
+      "displayName": "IPCCC",
+      "aliases": [
+        "IPCCC",
+        "International Performance Computing and Communications Conference",
+        "IEEE Int. Performance Computing and Communications Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-95e2ce17825c",
+      "short": "WoWMoM",
+      "displayName": "WoWMoM",
+      "aliases": [
+        "WoWMoM",
+        "International Symposium on a World of Wireless, Mobile and Multimedia Networks",
+        "IEEE Int. Symp. on a World of Wireless, Mobile and Multimedia Networks"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-06a6e8e60bb1",
+      "short": "ISCC",
+      "displayName": "ISCC",
+      "aliases": [
+        "ISCC",
+        "Symposium on Computers and Communications",
+        "IEEE Symp. on Computers and Communications"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-9374c8797335",
+      "short": "WCNC",
+      "displayName": "WCNC",
+      "aliases": [
+        "WCNC",
+        "Wireless Communications and Networking Conference",
+        "IEEE Wireless Communications and Networking Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-f524ac1bb73b",
+      "short": "Networking",
+      "displayName": "Networking",
+      "aliases": [
+        "Networking",
+        "IFIP International Conferences on Networking",
+        "IFIP Int. Conf.s on Networking"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-4b2a39998075",
+      "short": "IM",
+      "displayName": "IM",
+      "aliases": [
+        "IM",
+        "IFIP/IEEE International Symposium on Integrated Network Management",
+        "IFIP/IEEE Int. Symp. on Integrated Network Management"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-a5accb29dbc4",
+      "short": "MSN",
+      "displayName": "MSN",
+      "aliases": [
+        "MSN",
+        "International Conference on Mobility, Sensing and Networking",
+        "Int. Conf. on Mobility, Sensing and Networking"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-173d9c5d54d6",
+      "short": "MSWiM",
+      "displayName": "MSWiM",
+      "aliases": [
+        "MSWiM",
+        "International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems",
+        "Int. Conf. on Modeling, Analysis and Simulation of Wireless and Mobile Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-b7f98124296e",
+      "short": "WASA",
+      "displayName": "WASA",
+      "aliases": [
+        "WASA",
+        "The International Conference on Wireless Artificial Intelligent Computing Systems and Applications",
+        "The Int. Conf. on Wireless Artificial Intelligent Computing Systems and Applications"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-4031f90cd346",
+      "short": "HotNets",
+      "displayName": "HotNets",
+      "aliases": [
+        "HotNets",
+        "The Workshop on Hot Topics in Networks",
+        "ACM The Workshop on Hot Topics in Networks"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-de3d5d8e0556",
+      "short": "APNet",
+      "displayName": "APNet",
+      "aliases": [
+        "APNet",
+        "Asia-Pacific Workshop on Networking"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-5a0c14fe9c22",
+      "short": "CCS",
+      "displayName": "ACM CCS",
+      "aliases": [
+        "CCS",
+        "ACM CCS",
+        "ACM SIGSAC Conference on Computer and Communications Security",
+        "Computer and Communications Security",
+        "Conference on Computer and Communications Security",
+        "ACM Conf. on Computer and Communications Security"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-a917df633593",
+      "short": "EUROCRYPT",
+      "displayName": "EUROCRYPT",
+      "aliases": [
+        "EUROCRYPT",
+        "International Conference on the Theory and Applications of Cryptographic Techniques",
+        "Int. Conf. on the Theory and Applications of Cryptographic Techniques"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-1dfb2d6fd275",
+      "short": "S&P",
+      "displayName": "IEEE S&P",
+      "aliases": [
+        "S&P",
+        "IEEE S&P",
+        "IEEE SP",
+        "IEEE S and P",
+        "IEEE Symposium on Security and Privacy",
+        "Oakland",
+        "Oakland S&P",
+        "Oakland Conference",
+        "Symposium on Security and Privacy",
+        "IEEE Symp. on Security and Privacy"
+      ],
+      "sources": [
+        "https://www.ieee-security.org/TC/SP2026/cfdonors.html"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-087a6501920f",
+      "short": "CRYPTO",
+      "displayName": "CRYPTO",
+      "aliases": [
+        "CRYPTO",
+        "International Cryptology Conference",
+        "Int. Cryptology Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-259537a34f91",
+      "short": "USENIX Security",
+      "displayName": "USENIX Security",
+      "aliases": [
+        "USENIX Security",
+        "USENIX Security Symposium",
+        "USENIX SEC",
+        "USENIX Security Symp",
+        "Security Symposium",
+        "USENIX Security Symp."
+      ],
+      "sources": [
+        "https://www.usenix.org/conferences/past"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-8f5fa5e61f01",
+      "short": "NDSS",
+      "displayName": "NDSS",
+      "aliases": [
+        "NDSS",
+        "Network and Distributed System Security Symposium",
+        "Network and Distributed System Security Symp."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-3486238a4886",
+      "short": "ACSAC",
+      "displayName": "ACSAC",
+      "aliases": [
+        "ACSAC",
+        "Annual Computer Security Applications Conference",
+        "Annual Computer Security Applications Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-644adbbebb50",
+      "short": "ASIACRYPT",
+      "displayName": "ASIACRYPT",
+      "aliases": [
+        "ASIACRYPT",
+        "Annual International Conference on the Theory and Application of Cryptology and Information Security",
+        "Annual Int. Conf. on the Theory and Application of Cryptology and Information Security"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-be97b3c1b166",
+      "short": "ESORICS",
+      "displayName": "ESORICS",
+      "aliases": [
+        "ESORICS",
+        "European Symposium on Research in Computer Security",
+        "European Symp. on Research in Computer Security"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-a15c4af65f1a",
+      "short": "FSE",
+      "displayName": "FSE (Cryptography)",
+      "aliases": [
+        "FSE",
+        "Fast Software Encryption"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-00841b0d877c",
+      "short": "CSFW",
+      "displayName": "CSF",
+      "aliases": [
+        "CSFW",
+        "CSF",
+        "IEEE CSF",
+        "IEEE Computer Security Foundations Symposium",
+        "Computer Security Foundations Symposium",
+        "Computer Security Foundations Workshop",
+        "IEEE Computer Security Foundations Workshop"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-d293286af02b",
+      "short": "SRDS",
+      "displayName": "SRDS",
+      "aliases": [
+        "SRDS",
+        "International Symposium on Reliable Distributed Systems",
+        "IEEE Int. Symp. on Reliable Distributed Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-e2c92ff1b957",
+      "short": "CHES",
+      "displayName": "CHES",
+      "aliases": [
+        "CHES",
+        "International Conference on Cryptographic Hardware and Embedded Systems",
+        "Int. Conf. on Cryptographic Hardware and Embedded Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-9a00ccb7c29a",
+      "short": "DSN",
+      "displayName": "DSN",
+      "aliases": [
+        "DSN",
+        "International Conference on Dependable Systems and Networks",
+        "Int. Conf. on Dependable Systems and Networks"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-167629bc0044",
+      "short": "RAID",
+      "displayName": "RAID",
+      "aliases": [
+        "RAID",
+        "International Symposium on Recent Advances in Intrusion Detection",
+        "Int. Symp. on Recent Advances in Intrusion Detection"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-69f3bd81756f",
+      "short": "PKC",
+      "displayName": "PKC",
+      "aliases": [
+        "PKC",
+        "International Workshop on Practice and Theory in Public Key Cryptography",
+        "Int. Workshop on Practice and Theory in Public Key Cryptography"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-86411b8e4d9b",
+      "short": "TCC",
+      "displayName": "TCC",
+      "aliases": [
+        "TCC",
+        "Theory of Cryptography Conference",
+        "Theory of Cryptography Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-004bc30d7d7d",
+      "short": "WiSec",
+      "displayName": "WiSec",
+      "aliases": [
+        "WiSec",
+        "Conference on Security and Privacy in Wireless and Mobile Networks",
+        "ACM Conf. on Security and Privacy in Wireless and Mobile Networks"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-527c2ae7b216",
+      "short": "SACMAT",
+      "displayName": "SACMAT",
+      "aliases": [
+        "SACMAT",
+        "Symposium on Access Control Models and Technologies",
+        "ACM Symp. on Access Control Models and Technologies"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-150c043a8159",
+      "short": "DRM",
+      "displayName": "DRM",
+      "aliases": [
+        "DRM",
+        "Workshop on Digital Rights Management",
+        "ACM Workshop on Digital Rights Management"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-2f6466126b10",
+      "short": "IH&MMSec",
+      "displayName": "IH&MMSec",
+      "aliases": [
+        "IH&MMSec",
+        "Workshop on Information Hiding and Multimedia Security",
+        "ACM Workshop on Information Hiding and Multimedia Security"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-4ed185cbe012",
+      "short": "ACNS",
+      "displayName": "ACNS",
+      "aliases": [
+        "ACNS",
+        "International Conference on Applied Cryptography and Network Security",
+        "Int. Conf. on Applied Cryptography and Network Security"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-fca351b6c716",
+      "short": "AsiaCCS",
+      "displayName": "AsiaCCS",
+      "aliases": [
+        "AsiaCCS",
+        "ASIACCS",
+        "ASIA CCS",
+        "Asia CCS",
+        "ACM ASIACCS",
+        "ACM AsiaCCS",
+        "ACM Asia Conference on Computer and Communications Security",
+        "Asia Conference on Computer and Communications Security",
+        "ACM Asia Conf. on Computer and Communications Security"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-9c9bcd009b49",
+      "short": "ACISP",
+      "displayName": "ACISP",
+      "aliases": [
+        "ACISP",
+        "Australasia Conference on Information Security and Privacy",
+        "Australasia Conf. on Information Security and Privacy"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-7a99aff1dc99",
+      "short": "CT-RSA",
+      "displayName": "CT-RSA",
+      "aliases": [
+        "CT-RSA",
+        "The Cryptographer's Track at RSA Conference",
+        "The Cryptographer's Track at RSA Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-429b78386935",
+      "short": "DIMVA",
+      "displayName": "DIMVA",
+      "aliases": [
+        "DIMVA",
+        "Conference on Detection of Intrusions and Malware & Vulnerability Assessment",
+        "Conf. on Detection of Intrusions and Malware & Vulnerability Assessment"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-dab92fd080e4",
+      "short": "DFRWS",
+      "displayName": "DFRWS",
+      "aliases": [
+        "DFRWS",
+        "Digital Forensic Research Workshop"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-76f61138e7ce",
+      "short": "FC",
+      "displayName": "FC",
+      "aliases": [
+        "FC",
+        "Financial Cryptography and Data Security"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-48fa6d6c0ca7",
+      "short": "TrustCom",
+      "displayName": "TrustCom",
+      "aliases": [
+        "TrustCom",
+        "International Conference on Trust, Security and Privacy in Computing and Communications",
+        "IEEE Int. Conf. on Trust, Security and Privacy in Computing and Communications"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-c545e31ad161",
+      "short": "SEC",
+      "displayName": "SEC (IFIP Security)",
+      "aliases": [
+        "SEC",
+        "IFIP International Information Security Conference",
+        "IFIP Int. Information Security Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-99c015953981",
+      "short": "IFIP WG 11.9",
+      "displayName": "IFIP WG 11.9",
+      "aliases": [
+        "IFIP WG 11.9",
+        "IFIP Working Group 11.9 International Conference on Digital Forensics",
+        "IFIP Working Group 11.9 Int. Conf. on Digital Forensics"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-3f1cb5aa634f",
+      "short": "ISC",
+      "displayName": "ISC",
+      "aliases": [
+        "ISC",
+        "Information Security Conference",
+        "Information Security Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-4f57ec6c5569",
+      "short": "ICDF2C",
+      "displayName": "ICDF2C",
+      "aliases": [
+        "ICDF2C",
+        "International Conference on Digital Forensics & Cyber Crime",
+        "Int. Conf. on Digital Forensics & Cyber Crime"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-a9136de60418",
+      "short": "ICICS",
+      "displayName": "ICICS",
+      "aliases": [
+        "ICICS",
+        "International Conference on Information and Communications Security",
+        "Int. Conf. on Information and Communications Security"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-bc7a67c48d67",
+      "short": "SecureComm",
+      "displayName": "SecureComm",
+      "aliases": [
+        "SecureComm",
+        "International Conference on Security and Privacy in Communication Networks",
+        "Int. Conf. on Security and Privacy in Communication Networks"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-77c7a3f267e2",
+      "short": "NSPW",
+      "displayName": "NSPW",
+      "aliases": [
+        "NSPW",
+        "New Security Paradigms Workshop"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-9e2ed71e37a7",
+      "short": "PAM",
+      "displayName": "PAM",
+      "aliases": [
+        "PAM",
+        "Passive and Active Measurement Conference",
+        "Passive and Active Measurement Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-859c668999b3",
+      "short": "PETS",
+      "displayName": "PETS",
+      "aliases": [
+        "PETS",
+        "Privacy Enhancing Technologies Symposium",
+        "Privacy Enhancing Technologies Symp."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-62c134b0d5ba",
+      "short": "SAC",
+      "displayName": "SAC",
+      "aliases": [
+        "SAC",
+        "Selected Areas in Cryptography"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-4412464bf787",
+      "short": "SOUPS",
+      "displayName": "SOUPS",
+      "aliases": [
+        "SOUPS",
+        "Symposium On Usable Privacy and Security",
+        "Symp. On Usable Privacy and Security"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-4b6d19b96771",
+      "short": "HotSec",
+      "displayName": "HotSec",
+      "aliases": [
+        "HotSec",
+        "Workshop on Hot Topics in Security",
+        "USENIX Workshop on Hot Topics in Security"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-8f92a35b2050",
+      "short": "EuroS&P",
+      "displayName": "EuroS&P",
+      "aliases": [
+        "EuroS&P",
+        "European Symposium on Security and Privacy",
+        "IEEE European Symp. on Security and Privacy"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-0f5fa1086299",
+      "short": "Inscrypt",
+      "displayName": "Inscrypt",
+      "aliases": [
+        "Inscrypt",
+        "International Conference on Information Security and Cryptology",
+        "Int. Conf. on Information Security and Cryptology"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-c7820d577af9",
+      "short": "CODASPY",
+      "displayName": "CODASPY",
+      "aliases": [
+        "CODASPY",
+        "Conference on Data and Application Security and Privacy",
+        "Conf. on Data and Application Security and Privacy"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-39015cfc3410",
+      "short": "BlockSys",
+      "displayName": "BlockSys",
+      "aliases": [
+        "BlockSys",
+        "International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems",
+        "Int. Conf. on Blockchain, Artificial Intelligence, and Trustworthy Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-7cbf19231101",
+      "short": "CSCloud",
+      "displayName": "CSCloud",
+      "aliases": [
+        "CSCloud",
+        "International Conference on Cyber Security and Cloud Computing",
+        "Int. Conf. on Cyber Security and Cloud Computing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-ddd1fb04e4ef",
+      "short": "PACM PL",
+      "displayName": "PACMPL",
+      "aliases": [
+        "PACM PL",
+        "PACMPL",
+        "Proc ACM Program Lang",
+        "Proceedings of the ACM on Programming Languages",
+        "Proceedings of the ACM Programming Languages"
+      ],
+      "sources": [
+        "https://www.sigplan.org/PACMPL/pacmpl_procedures.pdf"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-f3f6f5ce5cdc",
+      "short": "PLDI",
+      "displayName": "PLDI",
+      "aliases": [
+        "PLDI",
+        "ACM PLDI",
+        "Programming Language Design and Implementation",
+        "SIGPLAN Conference on Programming Language Design and Implementation",
+        "ACM SIGPLAN Conf. on Programming Language Design and Implementation"
+      ],
+      "sources": [
+        "https://blog.sigplan.org/2022/08/08/pldi-will-join-pacmpl/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-9225fd135730",
+      "short": "POPL",
+      "displayName": "POPL",
+      "aliases": [
+        "POPL",
+        "ACM POPL",
+        "Principles of Programming Languages",
+        "ACM SIGPLAN Symposium on Principles of Programming Languages",
+        "SIGPLAN-SIGACT Symposium on Principles of Programming Languages",
+        "ACM SIGPLAN-SIGACT Symp. on Principles of Programming Languages"
+      ],
+      "sources": [
+        "https://www.sigplan.org/PACMPL/pacmpl_procedures.pdf"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-14b2e2b73a65",
+      "short": "FSE",
+      "displayName": "FSE",
+      "aliases": [
+        "FSE",
+        "ESEC/FSE",
+        "ESEC-FSE",
+        "ACM SIGSOFT FSE",
+        "ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering",
+        "ACM SIGSOFT International Symposium on Foundations of Software Engineering",
+        "Foundations of Software Engineering",
+        "International Conference on the Foundations of Software Engineering",
+        "ACM Int. Conf. on the Foundations of Software Engineering"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-45b86f2427ec",
+      "short": "SOSP",
+      "displayName": "SOSP",
+      "aliases": [
+        "SOSP",
+        "ACM SOSP",
+        "ACM SIGOPS Symposium on Operating Systems Principles",
+        "Symposium on Operating Systems Principles",
+        "ACM Symp. on Operating Systems Principles"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-e95fb4a3d6d6",
+      "short": "OOPSLA",
+      "displayName": "OOPSLA",
+      "aliases": [
+        "OOPSLA",
+        "ACM OOPSLA",
+        "Object-Oriented Programming Systems Languages and Applications",
+        "Object Oriented Programming Systems Languages and Applications",
+        "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+        "Conf. on Object-Oriented Programming Systems, Languages, and Applications"
+      ],
+      "sources": [
+        "https://www.sigplan.org/Conferences/OOPSLA/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-11be0f6173aa",
+      "short": "ASE",
+      "displayName": "ASE",
+      "aliases": [
+        "ASE",
+        "IEEE/ACM ASE",
+        "ACM/IEEE ASE",
+        "IEEE ACM International Conference on Automated Software Engineering",
+        "International Conference on Automated Software Engineering",
+        "Int. Conf. on Automated Software Engineering"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-99e6e53618be",
+      "short": "ICSE",
+      "displayName": "ICSE",
+      "aliases": [
+        "ICSE",
+        "IEEE/ACM ICSE",
+        "ACM/IEEE ICSE",
+        "International Conference on Software Engineering",
+        "Int. Conf. on Software Engineering"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-7a2a2a537dbe",
+      "short": "ISSTA",
+      "displayName": "ISSTA",
+      "aliases": [
+        "ISSTA",
+        "International Symposium on Software Testing and Analysis",
+        "Int. Symp. on Software Testing and Analysis"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-e9ff0ddbdb2e",
+      "short": "OSDI",
+      "displayName": "OSDI",
+      "aliases": [
+        "OSDI",
+        "USENIX OSDI",
+        "Operating Systems Design and Implementation",
+        "Symposium on Operating Systems Design and Implementation",
+        "USENIX Symp. on Operating Systems Design and Implementation"
+      ],
+      "sources": [
+        "https://www.usenix.org/conference/osdi24/call-for-papers"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-4a4d11374011",
+      "short": "FM",
+      "displayName": "FM",
+      "aliases": [
+        "FM",
+        "International Symposium on Formal Methods",
+        "Int. Symp. on Formal Methods"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-74951c90aa3f",
+      "short": "ECOOP",
+      "displayName": "ECOOP",
+      "aliases": [
+        "ECOOP",
+        "European Conference on Object-Oriented Programming",
+        "European Conf. on Object-Oriented Programming"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-78454e1350dd",
+      "short": "ETAPS",
+      "displayName": "ETAPS",
+      "aliases": [
+        "ETAPS",
+        "European Joint Conferences on Theory and Practice of Software",
+        "European Joint Conf.s on Theory and Practice of Software"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-891ca48b5e02",
+      "short": "ICPC",
+      "displayName": "ICPC",
+      "aliases": [
+        "ICPC",
+        "International Conference on Program Comprehension",
+        "IEEE Int. Conf. on Program Comprehension"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-967bf305d58e",
+      "short": "RE",
+      "displayName": "RE",
+      "aliases": [
+        "RE",
+        "International Requirements Engineering Conference",
+        "IEEE Int. Requirements Engineering Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-c8eb6fe52ca1",
+      "short": "CAiSE",
+      "displayName": "CAiSE",
+      "aliases": [
+        "CAiSE",
+        "International Conference on Advanced Information Systems Engineering",
+        "Int. Conf. on Advanced Information Systems Engineering"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-e292f12bea62",
+      "short": "ICFP",
+      "displayName": "ICFP",
+      "aliases": [
+        "ICFP",
+        "ACM ICFP",
+        "International Conference on Functional Programming",
+        "SIGPLAN International Conference on Function Programming",
+        "ACM SIGPLAN Int. Conf. on Function Programming"
+      ],
+      "sources": [
+        "https://icfp26.sigplan.org/track/icfp-2026-icfp-papers"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-333a9cc1380f",
+      "short": "LCTES",
+      "displayName": "LCTES",
+      "aliases": [
+        "LCTES",
+        "SIGPLAN/SIGBED International Conference on Languages, Compilers and Tools for Embedded Systems",
+        "ACM SIGPLAN/SIGBED Int. Conf. on Languages, Compilers and Tools for Embedded Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-29663c00527c",
+      "short": "MoDELS",
+      "displayName": "MoDELS",
+      "aliases": [
+        "MoDELS",
+        "International Conference on Model Driven EngineeringLanguages and Systems",
+        "ACM/IEEE Int. Conf. on Model Driven EngineeringLanguages and Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-cf97922e1d6f",
+      "short": "CP",
+      "displayName": "CP",
+      "aliases": [
+        "CP",
+        "International Conference on Principles and Practice of Constraint Programming",
+        "Int. Conf. on Principles and Practice of Constraint Programming"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-1482a28c577f",
+      "short": "ICSOC",
+      "displayName": "ICSOC",
+      "aliases": [
+        "ICSOC",
+        "International Conference on Service Oriented Computing",
+        "Int. Conf. on Service Oriented Computing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-3cf5fa784140",
+      "short": "SANER",
+      "displayName": "SANER",
+      "aliases": [
+        "SANER",
+        "International Conference on Software Analysis, Evolution, and Reengineering",
+        "IEEE Int. Conf. on Software Analysis, Evolution, and Reengineering"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-cab768fd24d0",
+      "short": "ICSME",
+      "displayName": "ICSME",
+      "aliases": [
+        "ICSME",
+        "International Conference on Software Maintenance and Evolution",
+        "Int. Conf. on Software Maintenance and Evolution"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-9bafa9f20cab",
+      "short": "VMCAI",
+      "displayName": "VMCAI",
+      "aliases": [
+        "VMCAI",
+        "International Conference on Verification, Model Checking and Abstract Interpretation",
+        "Int. Conf. on Verification, Model Checking and Abstract Interpretation"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-397f73e2b29e",
+      "short": "ICWS",
+      "displayName": "ICWS",
+      "aliases": [
+        "ICWS",
+        "International Conference on Web Services",
+        "IEEE Int. Conf. on Web Services"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-23761960430e",
+      "short": "Middleware",
+      "displayName": "Middleware",
+      "aliases": [
+        "Middleware",
+        "International Middleware Conference",
+        "Int. Middleware Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-aa43e04d73ac",
+      "short": "SAS",
+      "displayName": "SAS",
+      "aliases": [
+        "SAS",
+        "International Static Analysis Symposium",
+        "Int. Static Analysis Symp."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-58f44a3d1ed3",
+      "short": "ESEM",
+      "displayName": "ESEM",
+      "aliases": [
+        "ESEM",
+        "International Symposium on Empirical Software Engineering and Measurement",
+        "Int. Symp. on Empirical Software Engineering and Measurement"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-33b7d1d1491f",
+      "short": "ISSRE",
+      "displayName": "ISSRE",
+      "aliases": [
+        "ISSRE",
+        "International Symposium on Software Reliability Engineering",
+        "IEEE Int. Symp. on Software Reliability Engineering"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-9c02ebba3c8e",
+      "short": "HotOS",
+      "displayName": "HotOS",
+      "aliases": [
+        "HotOS",
+        "Workshop on Hot Topics in Operating Systems",
+        "USENIX Workshop on Hot Topics in Operating Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-f44fb8f2393b",
+      "short": "CC",
+      "displayName": "CC",
+      "aliases": [
+        "CC",
+        "International Conference on Compiler Construction",
+        "Int. Conf. on Compiler Construction"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-ab08bff4b15c",
+      "short": "PEPM",
+      "displayName": "PEPM",
+      "aliases": [
+        "PEPM",
+        "SIGPLAN Workshop on Partial Evaluation and Program Manipulation",
+        "ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-ca4dd3840421",
+      "short": "PASTE",
+      "displayName": "PASTE",
+      "aliases": [
+        "PASTE",
+        "ACMSIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-9b4101009feb",
+      "short": "APLAS",
+      "displayName": "APLAS",
+      "aliases": [
+        "APLAS",
+        "Asian Symposium on Programming Languages and Systems",
+        "Asian Symp. on Programming Languages and Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-cb46085eb405",
+      "short": "APSEC",
+      "displayName": "APSEC",
+      "aliases": [
+        "APSEC",
+        "Asia-Pacific Software Engineering Conference",
+        "Asia-Pacific Software Engineering Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-b31fa98bfbce",
+      "short": "EASE",
+      "displayName": "EASE",
+      "aliases": [
+        "EASE",
+        "International Conference on Evaluation and Assessment in Software Engineering",
+        "Int. Conf. on Evaluation and Assessment in Software Engineering"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-39ff5a895eab",
+      "short": "ICECCS",
+      "displayName": "ICECCS",
+      "aliases": [
+        "ICECCS",
+        "International Conference on Engineering of Complex Computer Systems",
+        "Int. Conf. on Engineering of Complex Computer Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-6cb299865ae7",
+      "short": "ICST",
+      "displayName": "ICST",
+      "aliases": [
+        "ICST",
+        "International Conference on Software Testing, Verification and Validation",
+        "IEEE Int. Conf. on Software Testing, Verification and Validation"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-a1a7861f733a",
+      "short": "ISPASS",
+      "displayName": "ISPASS",
+      "aliases": [
+        "ISPASS",
+        "International Symposium on Performance Analysis of Systems and Software",
+        "IEEE Int. Symp. on Performance Analysis of Systems and Software"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-303bd39fe6c1",
+      "short": "SCAM",
+      "displayName": "SCAM",
+      "aliases": [
+        "SCAM",
+        "International Working Conference on Source Code Analysis and Manipulation",
+        "IEEE Int. Working Conf. on Source Code Analysis and Manipulation"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-f211391ddfb1",
+      "short": "COMPSAC",
+      "displayName": "COMPSAC",
+      "aliases": [
+        "COMPSAC",
+        "International Computer Software and Applications Conference",
+        "Int. Computer Software and Applications Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-36d1a462df80",
+      "short": "ICFEM",
+      "displayName": "ICFEM",
+      "aliases": [
+        "ICFEM",
+        "International Conference on Formal Engineering Methods",
+        "Int. Conf. on Formal Engineering Methods"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-ddc9d961018e",
+      "short": "SSE",
+      "displayName": "SSE",
+      "aliases": [
+        "SSE",
+        "International Conference on Software Services Engineering",
+        "IEEE Int. Conf. on Software Services Engineering"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-0e48409f1d89",
+      "short": "ICSSP",
+      "displayName": "ICSSP",
+      "aliases": [
+        "ICSSP",
+        "International Conference on Software and System Process",
+        "Int. Conf. on Software and System Process"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-36dab231183c",
+      "short": "SEKE",
+      "displayName": "SEKE",
+      "aliases": [
+        "SEKE",
+        "International Conference on Software Engineering and Knowledge Engineering",
+        "Int. Conf. on Software Engineering and Knowledge Engineering"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-ee75c2808e50",
+      "short": "QRS",
+      "displayName": "QRS",
+      "aliases": [
+        "QRS",
+        "International Conference on Software Quality, Reliability and Security",
+        "Int. Conf. on Software Quality, Reliability and Security"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-1cf7f13bcf44",
+      "short": "ICSR",
+      "displayName": "ICSR",
+      "aliases": [
+        "ICSR",
+        "International Conference on Software Reuse",
+        "Int. Conf. on Software Reuse"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-2d8a6aff7c0d",
+      "short": "ICWE",
+      "displayName": "ICWE",
+      "aliases": [
+        "ICWE",
+        "International Conference on Web Engineering",
+        "Int. Conf. on Web Engineering"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-0cb6c5e4abca",
+      "short": "SPIN",
+      "displayName": "SPIN",
+      "aliases": [
+        "SPIN",
+        "International Symposium on Model Checking of Software",
+        "Int. Symp. on Model Checking of Software"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-56f6da949df2",
+      "short": "ATVA",
+      "displayName": "ATVA",
+      "aliases": [
+        "ATVA",
+        "International Symposium on Automated Technology for Verification and Analysis",
+        "Int. Symp. on Automated Technology for Verification and Analysis"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-615975884558",
+      "short": "LOPSTR",
+      "displayName": "LOPSTR",
+      "aliases": [
+        "LOPSTR",
+        "International Symposium on Logic-based Program Synthesis and Transformation",
+        "Int. Symp. on Logic-based Program Synthesis and Transformation"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-97817cf926c6",
+      "short": "TASE",
+      "displayName": "TASE",
+      "aliases": [
+        "TASE",
+        "Theoretical Aspects of Software Engineering Conference",
+        "Theoretical Aspects of Software Engineering Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-1b34a9deb4b2",
+      "short": "MSR",
+      "displayName": "MSR",
+      "aliases": [
+        "MSR",
+        "Mining Software Repositories"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-08d967809e3a",
+      "short": "REFSQ",
+      "displayName": "REFSQ",
+      "aliases": [
+        "REFSQ",
+        "Requirements Engineering: Foundation for Software Quality"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-98c79d71f0c9",
+      "short": "WICSA",
+      "displayName": "WICSA",
+      "aliases": [
+        "WICSA",
+        "Working IEEE/IFIP Conference on Software Architecture",
+        "Working IEEE/IFIP Conf. on Software Architecture"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-826f8e04e14a",
+      "short": "Internetware",
+      "displayName": "Internetware",
+      "aliases": [
+        "Internetware",
+        "Asia-Pacific Symposium on Internetware",
+        "Asia-Pacific Symp. on Internetware"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-767d914427e0",
+      "short": "RV",
+      "displayName": "RV",
+      "aliases": [
+        "RV",
+        "International Conference on Runtime Verification",
+        "Int. Conf. on Runtime Verification"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-b824ec2ef6a2",
+      "short": "MEMOCODE",
+      "displayName": "MEMOCODE",
+      "aliases": [
+        "MEMOCODE",
+        "International Conference on Formal Methods and Models for Co-Design",
+        "Int. Conf. on Formal Methods and Models for Co-Design"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-bed71073ff60",
+      "short": "SIGMOD",
+      "displayName": "SIGMOD",
+      "aliases": [
+        "SIGMOD",
+        "ACM SIGMOD",
+        "ACM SIGMOD International Conference on Management of Data",
+        "International Conference on Management of Data",
+        "SIGMOD Conference",
+        "ACM SIGMOD Conf."
+      ],
+      "sources": [
+        "https://sigmod.org/publication-list/",
+        "https://2026.sigmod.org/calls_papers_sigmod_research.shtml"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-eefe87ab92e8",
+      "short": "SIGKDD",
+      "displayName": "KDD",
+      "aliases": [
+        "SIGKDD",
+        "KDD",
+        "ACM KDD",
+        "ACM SIGKDD",
+        "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+        "Knowledge Discovery and Data Mining",
+        "SIGKDD Conference on Knowledge Discovery and Data Mining",
+        "ACM SIGKDD Conf. on Knowledge Discovery and Data Mining"
+      ],
+      "sources": [
+        "https://www.kdd.org/conferences"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-a19673e7cd3c",
+      "short": "ICDE",
+      "displayName": "ICDE",
+      "aliases": [
+        "ICDE",
+        "IEEE ICDE",
+        "International Conference on Data Engineering",
+        "IEEE Int. Conf. on Data Engineering"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-5b803a8b969d",
+      "short": "SIGIR",
+      "displayName": "SIGIR",
+      "aliases": [
+        "SIGIR",
+        "ACM SIGIR",
+        "ACM SIGIR Conference on Research and Development in Information Retrieval",
+        "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+        "Int. ACM SIGIR Conf. on Research and Development in Information Retrieval"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-c62f1743e0a0",
+      "short": "VLDB",
+      "displayName": "VLDB",
+      "aliases": [
+        "VLDB",
+        "International Conference on Very Large Databases",
+        "Very Large Data Bases",
+        "Very Large Databases",
+        "International Conference on Very Large Data Bases",
+        "Int. Conf. on Very Large Data Bases"
+      ],
+      "sources": [
+        "https://www.vldb.org/conference.html"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-b92eb2e2f8e7",
+      "short": "CIKM",
+      "displayName": "CIKM",
+      "aliases": [
+        "CIKM",
+        "International Conference on Information and Knowledge Management",
+        "ACM Int. Conf. on Information and Knowledge Management"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-25ab98dc35d0",
+      "short": "WSDM",
+      "displayName": "WSDM",
+      "aliases": [
+        "WSDM",
+        "International Conference on Web Search and Data Mining",
+        "ACM Int. Conf. on Web Search and Data Mining"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-8e63ab989883",
+      "short": "PODS",
+      "displayName": "PODS",
+      "aliases": [
+        "PODS",
+        "SIGMOD-SIGACT-SIGAI Symposium on Principles of Database Systems",
+        "ACM SIGMOD-SIGACT-SIGAI Symp. on Principles of Database Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-a0ed00648691",
+      "short": "DASFAA",
+      "displayName": "DASFAA",
+      "aliases": [
+        "DASFAA",
+        "International Conference on Database Systems for Advanced Applications",
+        "Int. Conf. on Database Systems for Advanced Applications"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-a8db57f098c4",
+      "short": "ECML-PKDD",
+      "displayName": "ECML-PKDD",
+      "aliases": [
+        "ECML-PKDD",
+        "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
+        "European Conf. on Machine Learning and Principles and Practice of Knowledge Discovery in Databases"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-2349e21757c5",
+      "short": "ISWC",
+      "displayName": "ISWC",
+      "aliases": [
+        "ISWC",
+        "International Semantic Web Conference",
+        "IEEE Int. Semantic Web Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-c93cbc5d533e",
+      "short": "ICDM",
+      "displayName": "ICDM",
+      "aliases": [
+        "ICDM",
+        "International Conference on Data Mining",
+        "IEEE Int. Conf. on Data Mining"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-ed55626222f3",
+      "short": "ICDT",
+      "displayName": "ICDT",
+      "aliases": [
+        "ICDT",
+        "International Conference on Database Theory",
+        "Int. Conf. on Database Theory"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-c726f042d431",
+      "short": "EDBT",
+      "displayName": "EDBT",
+      "aliases": [
+        "EDBT",
+        "International Conference on Extending Database Technology",
+        "Int. Conf. on Extending Database Technology"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-b68f8cac6ed1",
+      "short": "CIDR",
+      "displayName": "CIDR",
+      "aliases": [
+        "CIDR",
+        "Conference on Innovative Data Systems Research",
+        "Conf. on Innovative Data Systems Research"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-dc44f2211d0a",
+      "short": "SDM",
+      "displayName": "SDM",
+      "aliases": [
+        "SDM",
+        "SIAM International Conference on Data Mining",
+        "SIAM Int. Conf. on Data Mining"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-eb5030a40b2a",
+      "short": "RecSys",
+      "displayName": "RecSys",
+      "aliases": [
+        "RecSys",
+        "Conference on Recommender Systems",
+        "ACM Conf. on Recommender Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-4c1ec4a7dd8e",
+      "short": "WISE",
+      "displayName": "WISE",
+      "aliases": [
+        "WISE",
+        "Web Information Systems Engineering Conference",
+        "Web Information Systems Engineering Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-fd791dd66fd3",
+      "short": "APWeb",
+      "displayName": "APWeb",
+      "aliases": [
+        "APWeb",
+        "Asia Pacific Web Conference",
+        "Asia Pacific Web Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-df50714ef153",
+      "short": "DEXA",
+      "displayName": "DEXA",
+      "aliases": [
+        "DEXA",
+        "International Conference on Database and Expert System Applications",
+        "Int. Conf. on Database and Expert System Applications"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-918009c699f3",
+      "short": "ECIR",
+      "displayName": "ECIR",
+      "aliases": [
+        "ECIR",
+        "European Conference on Information Retrieval",
+        "European Conf. on Information Retrieval"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-0f1ac3cf3655",
+      "short": "ESWC",
+      "displayName": "ESWC",
+      "aliases": [
+        "ESWC",
+        "Extended Semantic Web Conference",
+        "Extended Semantic Web Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-f08e24b8610d",
+      "short": "WebDB",
+      "displayName": "WebDB",
+      "aliases": [
+        "WebDB",
+        "International Workshop on Web and Databases",
+        "Int. Workshop on Web and Databases"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-5de3b6625b6e",
+      "short": "ER",
+      "displayName": "ER",
+      "aliases": [
+        "ER",
+        "International Conference on Conceptual Modeling",
+        "Int. Conf. on Conceptual Modeling"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-2bc51262aeb3",
+      "short": "MDM",
+      "displayName": "MDM",
+      "aliases": [
+        "MDM",
+        "International Conference on Mobile Data Management",
+        "Int. Conf. on Mobile Data Management"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-ead29c9a43ad",
+      "short": "SSDBM",
+      "displayName": "SSDBM",
+      "aliases": [
+        "SSDBM",
+        "International Conference on Scientific and Statistical Database Management",
+        "Int. Conf. on Scientific and Statistical Database Management"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-286d84db64ab",
+      "short": "WAIM",
+      "displayName": "WAIM",
+      "aliases": [
+        "WAIM",
+        "International Conference on Web Age Information Management",
+        "Int. Conf. on Web Age Information Management"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-ebf1f417a913",
+      "short": "SSTD",
+      "displayName": "SSTD",
+      "aliases": [
+        "SSTD",
+        "International Symposium on Spatial and Temporal Databases",
+        "Int. Symp. on Spatial and Temporal Databases"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-f7781edb6ed6",
+      "short": "PAKDD",
+      "displayName": "PAKDD",
+      "aliases": [
+        "PAKDD",
+        "Pacific-Asia Conference on Knowledge Discovery and Data Mining",
+        "Pacific-Asia Conf. on Knowledge Discovery and Data Mining"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-f4013006f43d",
+      "short": "ADMA",
+      "displayName": "ADMA",
+      "aliases": [
+        "ADMA",
+        "International Conference on Advanced Data Mining and Applications",
+        "Int. Conf. on Advanced Data Mining and Applications"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-3336efd487ad",
+      "short": "WISA",
+      "displayName": "WISA",
+      "aliases": [
+        "WISA",
+        "Web Information Systems and Applications"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-1a1a94175dbd",
+      "short": "STOC",
+      "displayName": "STOC",
+      "aliases": [
+        "STOC",
+        "Symposium on the Theory of Computing",
+        "ACM Symp. on the Theory of Computing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-55655a5a435a",
+      "short": "SODA",
+      "displayName": "SODA",
+      "aliases": [
+        "SODA",
+        "ACM-SIAM Symposium on Discrete Algorithms",
+        "ACM-SIAM Symp. on Discrete Algorithms"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-2c95a5a96de6",
+      "short": "CAV",
+      "displayName": "CAV",
+      "aliases": [
+        "CAV",
+        "International Conference on Computer Aided Verification",
+        "Int. Conf. on Computer Aided Verification"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-a87bc0a45202",
+      "short": "FOCS",
+      "displayName": "FOCS",
+      "aliases": [
+        "FOCS",
+        "Annual Symposium on Foundations of Computer Science",
+        "IEEE Annual Symp. on Foundations of Computer Science"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-fb2f7d5948f2",
+      "short": "LICS",
+      "displayName": "LICS",
+      "aliases": [
+        "LICS",
+        "Symposium on Logic in Computer Science",
+        "ACM/IEEE Symp. on Logic in Computer Science"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-2dfb7b87e51f",
+      "short": "SoCG",
+      "displayName": "SoCG",
+      "aliases": [
+        "SoCG",
+        "International Symposium on Computational Geometry",
+        "Int. Symp. on Computational Geometry"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-7ed01e6bcb46",
+      "short": "ESA",
+      "displayName": "ESA",
+      "aliases": [
+        "ESA",
+        "European Symposium on Algorithms",
+        "European Symp. on Algorithms"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-dfde709f99f9",
+      "short": "CCC",
+      "displayName": "CCC",
+      "aliases": [
+        "CCC",
+        "Conference on Computational Complexity",
+        "Conf. on Computational Complexity"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-bb6aa04b064c",
+      "short": "ICALP",
+      "displayName": "ICALP",
+      "aliases": [
+        "ICALP",
+        "International Colloquium on Automata, Languages and Programming",
+        "Int. Colloquium on Automata, Languages and Programming"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-51c222e40520",
+      "short": "CADE",
+      "displayName": "CADE",
+      "aliases": [
+        "CADE",
+        "Conference on Automated Deduction",
+        "Conf. on Automated Deduction"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-c2abb5406c9e",
+      "short": "CONCUR",
+      "displayName": "CONCUR",
+      "aliases": [
+        "CONCUR",
+        "International Conference on Concurrency Theory",
+        "Int. Conf. on Concurrency Theory"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-240102c4f45c",
+      "short": "HSCC",
+      "displayName": "HSCC",
+      "aliases": [
+        "HSCC",
+        "International Conference on Hybrid Systems: Computation and Control",
+        "Int. Conf. on Hybrid Systems: Computation and Control"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-8986e5af36a1",
+      "short": "SAT",
+      "displayName": "SAT",
+      "aliases": [
+        "SAT",
+        "International Conference on Theory and Applications of Satisfiability Testing",
+        "Int. Conf. on Theory and Applications of Satisfiability Testing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-57809a426e8a",
+      "short": "COCOON",
+      "displayName": "COCOON",
+      "aliases": [
+        "COCOON",
+        "International Computing and Combinatorics Conference",
+        "Int. Computing and Combinatorics Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-0d67ecda065e",
+      "short": "FMCAD",
+      "displayName": "FMCAD",
+      "aliases": [
+        "FMCAD",
+        "Formal Methods in Computer-Aided Design"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-c5560af95f95",
+      "short": "CSL",
+      "displayName": "CSL",
+      "aliases": [
+        "CSL",
+        "Computer Science Logic"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-212baf70402a",
+      "short": "FSTTCS",
+      "displayName": "FSTTCS",
+      "aliases": [
+        "FSTTCS",
+        "Foundations of Software Technology and Theoretical Computer Science"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-7ef1747e83f2",
+      "short": "DSAA",
+      "displayName": "DSAA",
+      "aliases": [
+        "DSAA",
+        "International Conference on Data Science and Advanced Analytics",
+        "IEEE Int. Conf. on Data Science and Advanced Analytics"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-b24f58502fe8",
+      "short": "ICTAC",
+      "displayName": "ICTAC",
+      "aliases": [
+        "ICTAC",
+        "International Colloquium on Theoretical Aspects of Computing",
+        "Int. Colloquium on Theoretical Aspects of Computing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-3c014f92877d",
+      "short": "IPCO",
+      "displayName": "IPCO",
+      "aliases": [
+        "IPCO",
+        "International Conference on Integer Programming and Combinatorial Optimization",
+        "Int. Conf. on Integer Programming and Combinatorial Optimization"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-5bf80ed84036",
+      "short": "FSCD",
+      "displayName": "FSCD",
+      "aliases": [
+        "FSCD",
+        "International Conference on Formal Structures for Computation and Deduction",
+        "Int. Conf. on Formal Structures for Computation and Deduction"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-1ff1f13c4253",
+      "short": "ISAAC",
+      "displayName": "ISAAC",
+      "aliases": [
+        "ISAAC",
+        "International Symposium on Algorithms and Computation",
+        "Int. Symp. on Algorithms and Computation"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-79a5cf40fe38",
+      "short": "MFCS",
+      "displayName": "MFCS",
+      "aliases": [
+        "MFCS",
+        "International Conference on Mathematical Foundations of Computer Science",
+        "Int. Conf. on Mathematical Foundations of Computer Science"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-eabb5b1a0f7b",
+      "short": "STACS",
+      "displayName": "STACS",
+      "aliases": [
+        "STACS",
+        "Symposium on Theoretical Aspects of Computer Science",
+        "Symp. on Theoretical Aspects of Computer Science"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-ea9bb0cfaee1",
+      "short": "SETTA",
+      "displayName": "SETTA",
+      "aliases": [
+        "SETTA",
+        "International Symposium on Software Engineering: Theories, Tools, and Applications",
+        "Int. Symp. on Software Engineering: Theories, Tools, and Applications"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-dcb372431aaf",
+      "short": "ACM MM",
+      "displayName": "ACM MM",
+      "aliases": [
+        "ACM MM",
+        "ACMMM",
+        "ACM-MM",
+        "ACM Multimedia",
+        "ACM Multimedia Conference",
+        "ACM Conference on Multimedia",
+        "MM",
+        "International Conference on Multimedia",
+        "ACM Int. Conf. on Multimedia"
+      ],
+      "sources": [
+        "https://www.acm.org/binaries/content/assets/press-releases/2018/october/mm-2018.pdf",
+        "https://acmmm.hosting2.acm.org/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-43cf4f0a773e",
+      "short": "SIGGRAPH",
+      "displayName": "SIGGRAPH",
+      "aliases": [
+        "SIGGRAPH",
+        "ACM SIGGRAPH",
+        "Computer Graphics and Interactive Techniques",
+        "Special Interest Group on Computer Graphics",
+        "ACM Special Interest Group on Computer Graphics"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-21c761ccf648",
+      "short": "VR",
+      "displayName": "VR",
+      "aliases": [
+        "VR",
+        "Conference on Virtual Reality and 3D User Interfaces",
+        "IEEE Conf. on Virtual Reality and 3D User Interfaces"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-544193af0316",
+      "short": "IEEE VIS",
+      "displayName": "IEEE VIS",
+      "aliases": [
+        "IEEE VIS",
+        "VIS",
+        "IEEE Visualization",
+        "IEEE Visualization Conference",
+        "Visualization Conference",
+        "IEEE Visualization Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-bb19b06c3365",
+      "short": "ICMR",
+      "displayName": "ICMR",
+      "aliases": [
+        "ICMR",
+        "SIGMM International Conference on Multimedia Retrieval",
+        "ACM SIGMM Int. Conf. on Multimedia Retrieval"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-28fddc581375",
+      "short": "I3D",
+      "displayName": "I3D",
+      "aliases": [
+        "I3D",
+        "SIGGRAPH Symposium on Interactive 3D Graphics and Games",
+        "ACM SIGGRAPH Symp. on Interactive 3D Graphics and Games"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-2967ad943a1b",
+      "short": "SCA",
+      "displayName": "SCA",
+      "aliases": [
+        "SCA",
+        "SIGGRAPH/Eurographics Symposium on Computer Animation",
+        "ACM SIGGRAPH/Eurographics Symp. on Computer Animation"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-feb3c7e0756a",
+      "short": "DCC",
+      "displayName": "DCC",
+      "aliases": [
+        "DCC",
+        "Data Compression Conference",
+        "Data Compression Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-474f7f5bc80d",
+      "short": "Eurographics",
+      "displayName": "Eurographics",
+      "aliases": [
+        "Eurographics",
+        "Annual Conference of the European Association for Computer Graphics",
+        "Annual Conf. of the European Association for Computer Graphics"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-8eb846e666a9",
+      "short": "EuroVis",
+      "displayName": "EuroVis",
+      "aliases": [
+        "EuroVis",
+        "Eurographics Conference on Visualization",
+        "Eurographics Conf. on Visualization"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-3f0b6cab58f3",
+      "short": "SGP",
+      "displayName": "SGP",
+      "aliases": [
+        "SGP",
+        "Eurographics Symposium on Geometry Processing",
+        "Eurographics Symp. on Geometry Processing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-bf6b0f3d26bf",
+      "short": "EGSR",
+      "displayName": "EGSR",
+      "aliases": [
+        "EGSR",
+        "Eurographics Symposium on Rendering",
+        "Eurographics Symp. on Rendering"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-e0154cd2ffce",
+      "short": "ICASSP",
+      "displayName": "ICASSP",
+      "aliases": [
+        "ICASSP",
+        "International Conference on Acoustics, Speech and Signal Processing",
+        "IEEE Int. Conf. on Acoustics, Speech and Signal Processing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-746d63b5e4b9",
+      "short": "ICME",
+      "displayName": "ICME",
+      "aliases": [
+        "ICME",
+        "International Conference on Multimedia & Expo",
+        "IEEE Int. Conf. on Multimedia & Expo"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-2a04816753f0",
+      "short": "ISMAR",
+      "displayName": "ISMAR",
+      "aliases": [
+        "ISMAR",
+        "International Symposium on Mixed and Augmented Reality",
+        "Int. Symp. on Mixed and Augmented Reality"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-5b9df7e15af7",
+      "short": "PG",
+      "displayName": "PG",
+      "aliases": [
+        "PG",
+        "Pacific Conference onComputer Graphics and Applications",
+        "Pacific Conf. onComputer Graphics and Applications"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-0474e882451a",
+      "short": "SPM",
+      "displayName": "SPM",
+      "aliases": [
+        "SPM",
+        "Symposium on Solid and Physical Modeling",
+        "Symp. on Solid and Physical Modeling"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-833a60dfb4b9",
+      "short": "INTER- SPEECH",
+      "displayName": "INTER- SPEECH",
+      "aliases": [
+        "INTER- SPEECH",
+        "Conference of the International Speech Communication Association",
+        "Conf. of the Int. Speech Communication Association"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-1572ac84af57",
+      "short": "VRST",
+      "displayName": "VRST",
+      "aliases": [
+        "VRST",
+        "Symposium on Virtual Reality Software and Technology",
+        "ACM Symp. on Virtual Reality Software and Technology"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-11836781165a",
+      "short": "CASAXR",
+      "displayName": "CASAXR",
+      "aliases": [
+        "CASAXR",
+        "International Conference on Computer Animation, Social Agents, and Extended Reality",
+        "Int. Conf. on Computer Animation, Social Agents, and Extended Reality"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-7964a34f8018",
+      "short": "CGI",
+      "displayName": "CGI",
+      "aliases": [
+        "CGI",
+        "Computer Graphics International",
+        "Computer Graphics Int."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-f34b85774a77",
+      "short": "GMP",
+      "displayName": "GMP",
+      "aliases": [
+        "GMP",
+        "Geometric Modeling and Processing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-fa4a0d3ce25e",
+      "short": "PacificVis",
+      "displayName": "PacificVis",
+      "aliases": [
+        "PacificVis",
+        "Pacific Visualization Symposium",
+        "IEEE Pacific Visualization Symp."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-e064910108b3",
+      "short": "3DV",
+      "displayName": "3DV",
+      "aliases": [
+        "3DV",
+        "International Conference on 3D Vision",
+        "Int. Conf. on 3D Vision"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-933283f23fae",
+      "short": "CAD/Graphics",
+      "displayName": "CAD/Graphics",
+      "aliases": [
+        "CAD/Graphics",
+        "International Conference on Computer-Aided Design and Computer Graphics Processing",
+        "Int. Conf. on Computer-Aided Design and Computer Graphics Processing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-0bc431978b66",
+      "short": "ICIP",
+      "displayName": "ICIP",
+      "aliases": [
+        "ICIP",
+        "International Conference on Image Processing",
+        "IEEE Int. Conf. on Image Processing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-657e975724cd",
+      "short": "MMM",
+      "displayName": "MMM",
+      "aliases": [
+        "MMM",
+        "International Conference on Multimedia Modeling",
+        "Int. Conf. on Multimedia Modeling"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-15d2435fbe96",
+      "short": "MMAsia",
+      "displayName": "ACM MM Asia",
+      "aliases": [
+        "MMAsia",
+        "ACM MM Asia",
+        "ACM Multimedia Asia",
+        "ACMMM Asia",
+        "Multimedia Asia"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-3cc8f31edfb4",
+      "short": "SMI",
+      "displayName": "SMI",
+      "aliases": [
+        "SMI",
+        "Shape Modeling International",
+        "Shape Modeling Int."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-f0ea0c2cb006",
+      "short": "CVM",
+      "displayName": "CVM",
+      "aliases": [
+        "CVM",
+        "Computational Visual Media"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-0804c2bdbfd1",
+      "short": "PRCV",
+      "displayName": "PRCV",
+      "aliases": [
+        "PRCV",
+        "Chinese Conference on Pattern Recognition and Computer Vision",
+        "Chinese Conf. on Pattern Recognition and Computer Vision"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-2d754fed9bb6",
+      "short": "ICIG",
+      "displayName": "ICIG",
+      "aliases": [
+        "ICIG",
+        "International Conference on Image and Graphics",
+        "Int. Conf. on Image and Graphics"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-6a4d96ae50a3",
+      "short": "NCMMSC",
+      "displayName": "NCMMSC",
+      "aliases": [
+        "NCMMSC",
+        "National Conference on Man-Machine Speech Communication",
+        "National Conf. on Man-Machine Speech Communication"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-74dd616e5251",
+      "short": "ASRU",
+      "displayName": "ASRU",
+      "aliases": [
+        "ASRU",
+        "Automatic Speech Recognition and Understanding Workshop"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-419b97de55f2",
+      "short": "SLT",
+      "displayName": "SLT",
+      "aliases": [
+        "SLT",
+        "Spoken Language Technology"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-b1fc7c77e14c",
+      "short": "AAAI",
+      "displayName": "AAAI",
+      "aliases": [
+        "AAAI",
+        "AAAI Conference on Artificial Intelligence",
+        "National Conference on Artificial Intelligence",
+        "AAAI Conf. on Artificial Intelligence"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-2d914b5a81be",
+      "short": "NeurIPS",
+      "displayName": "NeurIPS",
+      "aliases": [
+        "NeurIPS",
+        "NIPS",
+        "Advances in Neural Information Processing Systems",
+        "Neural Information Processing Systems",
+        "神经信息处理系统大会",
+        "国际神经信息处理系统大会",
+        "Conference on Neural Information Processing Systems",
+        "Conf. on Neural Information Processing Systems"
+      ],
+      "sources": [
+        "https://cncc2019.ccf.org.cn/cms/news/100000/0000000040/2019/10/11/6063546cfeff435fa8b3103b32b7a1bf.shtml",
+        "https://tc.ccf.org.cn/upload/resources/file/2020/12/28/146927.pdf"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-d393fc2a44a8",
+      "short": "ACL",
+      "displayName": "ACL",
+      "aliases": [
+        "ACL",
+        "ACL-HLT",
+        "ACL HLT",
+        "Annual Meeting of the Association for Computational Linguistics",
+        "Annual Meeting of the Association for Computational Linguistics and the International Joint Conference on Natural Language Processing"
+      ],
+      "sources": [
+        "https://aclanthology.org/venues/acl/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-a675c28a053c",
+      "short": "CVPR",
+      "displayName": "CVPR",
+      "aliases": [
+        "CVPR",
+        "IEEE CVPR",
+        "IEEE/CVF CVPR",
+        "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "IEEE Conference on Computer Vision and Pattern Recognition",
+        "Computer Vision and Pattern Recognition",
+        "国际计算机视觉与模式识别会议",
+        "IEEE/CVF Computer Vision and Pattern Recognition Conference",
+        "IEEE/CVF Computer Vision and Pattern Recognition Conf."
+      ],
+      "sources": [
+        "https://dl.ccf.org.cn/albumList/getMeetingDetail5976848823011328?_ack=1",
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-8e6ea08a12d0",
+      "short": "ICCV",
+      "displayName": "ICCV",
+      "aliases": [
+        "ICCV",
+        "IEEE ICCV",
+        "IEEE/CVF ICCV",
+        "IEEE/CVF International Conference on Computer Vision",
+        "IEEE International Conference on Computer Vision",
+        "International Conference on Computer Vision",
+        "Int. Conf. on Computer Vision"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-b5111b4e9ef7",
+      "short": "ICML",
+      "displayName": "ICML",
+      "aliases": [
+        "ICML",
+        "International Conference on Machine Learning",
+        "International Conf on Machine Learning",
+        "International Conference on Machine Learning ICML",
+        "Int. Conf. on Machine Learning"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-cad59fae5401",
+      "short": "ICLR",
+      "displayName": "ICLR",
+      "aliases": [
+        "ICLR",
+        "International Conference on Learning Representations",
+        "Int. Conf. on Learning Representations"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-281166126c1d",
+      "short": "COLT",
+      "displayName": "COLT",
+      "aliases": [
+        "COLT",
+        "Annual Conference on Computational Learning Theory",
+        "Annual Conf. on Computational Learning Theory"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-940404fda63f",
+      "short": "EMNLP",
+      "displayName": "EMNLP",
+      "aliases": [
+        "EMNLP",
+        "EMNLP-IJCNLP",
+        "EMNLP IJCNLP",
+        "Empirical Methods in Natural Language Processing",
+        "Empirical Methods in Natural Language Processing and International Joint Conference on Natural Language Processing",
+        "Conference on Empirical Methods in Natural Language Processing",
+        "Conf. on Empirical Methods in Natural Language Processing"
+      ],
+      "sources": [
+        "https://aclanthology.org/volumes/D19-1/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-b74ba68055ec",
+      "short": "ECAI",
+      "displayName": "ECAI",
+      "aliases": [
+        "ECAI",
+        "European Conference on Artificial Intelligence",
+        "European Conf. on Artificial Intelligence"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-6d43b18338e6",
+      "short": "ECCV",
+      "displayName": "ECCV",
+      "aliases": [
+        "ECCV",
+        "European Conference on Computer Vision",
+        "Computer Vision ECCV",
+        "European Conf. on Computer Vision"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-89447888ee8c",
+      "short": "ICRA",
+      "displayName": "ICRA",
+      "aliases": [
+        "ICRA",
+        "International Conference on Robotics and Automation",
+        "IEEE Int. Conf. on Robotics and Automation"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-0d2078a4aa20",
+      "short": "ICAPS",
+      "displayName": "ICAPS",
+      "aliases": [
+        "ICAPS",
+        "International Conference on Automated Planning and Scheduling",
+        "Int. Conf. on Automated Planning and Scheduling"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-666402d7d654",
+      "short": "ICCBR",
+      "displayName": "ICCBR",
+      "aliases": [
+        "ICCBR",
+        "International Conference on Case-Based Reasoning",
+        "Int. Conf. on Case-Based Reasoning"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-6269f8be8c30",
+      "short": "COLING",
+      "displayName": "COLING",
+      "aliases": [
+        "COLING",
+        "International Conference on Computational Linguistics",
+        "International Joint Conference on Computational Linguistics",
+        "Int. Conf. on Computational Linguistics"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-78080289ae86",
+      "short": "KR",
+      "displayName": "KR",
+      "aliases": [
+        "KR",
+        "International Conference on Principles of Knowledge Representation and Reasoning",
+        "Int. Conf. on Principles of Knowledge Representation and Reasoning"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-039e8718606a",
+      "short": "UAI",
+      "displayName": "UAI",
+      "aliases": [
+        "UAI",
+        "Conference on Uncertainty in Artificial Intelligence",
+        "Conf. on Uncertainty in Artificial Intelligence"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-7208b62cee21",
+      "short": "AAMAS",
+      "displayName": "AAMAS",
+      "aliases": [
+        "AAMAS",
+        "International Joint Conference on Autonomous Agents and Multi-agent Systems",
+        "Int. Joint Conf. on Autonomous Agents and Multi-agent Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-7efe7ea7ad2d",
+      "short": "PPSN",
+      "displayName": "PPSN",
+      "aliases": [
+        "PPSN",
+        "Parallel Problem Solving from Nature"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-fbbf839c776f",
+      "short": "NAACL",
+      "displayName": "NAACL",
+      "aliases": [
+        "NAACL",
+        "NAACL-HLT",
+        "NAACL HLT",
+        "Conference of the North American Chapter of the Association for Computational Linguistics",
+        "Human Language Technologies: The Annual Conference of the North American Chapter of the Association for Computational Linguistics",
+        "North American Chapter of the Association for Computational Linguistics"
+      ],
+      "sources": [
+        "https://2025.naacl.org/program/accepted_papers/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-ea5a89c36133",
+      "short": "IJCAI",
+      "displayName": "IJCAI",
+      "aliases": [
+        "IJCAI",
+        "IJCAI-ECAI",
+        "International Joint Conference on Artificial Intelligence",
+        "International Joint Conferences on Artificial Intelligence",
+        "Int. Joint Conf. on Artificial Intelligence"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-4e7704e17c77",
+      "short": "AISTATS",
+      "displayName": "AISTATS",
+      "aliases": [
+        "AISTATS",
+        "International Conference on Artificial Intelligence and Statistics",
+        "Int. Conf. on Artificial Intelligence and Statistics"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-47495bcbec0b",
+      "short": "ACCV",
+      "displayName": "ACCV",
+      "aliases": [
+        "ACCV",
+        "Asian Conference on Computer Vision",
+        "Asian Conf. on Computer Vision"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-150b02a9f36c",
+      "short": "ACML",
+      "displayName": "ACML",
+      "aliases": [
+        "ACML",
+        "Asian Conference on Machine Learning",
+        "Asian Conf. on Machine Learning"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-2281915e4696",
+      "short": "BMVC",
+      "displayName": "BMVC",
+      "aliases": [
+        "BMVC",
+        "British Machine Vision Conference",
+        "British Machine Vision Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-6480c2f6a1eb",
+      "short": "NLPCC",
+      "displayName": "NLPCC",
+      "aliases": [
+        "NLPCC",
+        "CCF International Conference on Natural Language Processing and Chinese Computing",
+        "CCF Int. Conf. on Natural Language Processing and Chinese Computing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-742b84386a60",
+      "short": "CoNLL",
+      "displayName": "CoNLL",
+      "aliases": [
+        "CoNLL",
+        "Conference on Computational Natural Language Learning",
+        "Conf. on Computational Natural Language Learning"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-f72b8e0dc1cc",
+      "short": "GECCO",
+      "displayName": "GECCO",
+      "aliases": [
+        "GECCO",
+        "Genetic and Evolutionary Computation Conference",
+        "Genetic and Evolutionary Computation Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-ec02b705b4ff",
+      "short": "ICTAI",
+      "displayName": "ICTAI",
+      "aliases": [
+        "ICTAI",
+        "International Conference on Tools with Artificial Intelligence",
+        "IEEE Int. Conf. on Tools with Artificial Intelligence"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-b6b645460aac",
+      "short": "IROS",
+      "displayName": "IROS",
+      "aliases": [
+        "IROS",
+        "IEEE\\RSJ International Conference on Intelligent Robots and Systems",
+        "IEEE\\RSJ Int. Conf. on Intelligent Robots and Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-e07397f476f3",
+      "short": "ALT",
+      "displayName": "ALT",
+      "aliases": [
+        "ALT",
+        "International Conference on Algorithmic Learning Theory",
+        "Int. Conf. on Algorithmic Learning Theory"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-0aa9eae83d47",
+      "short": "ICANN",
+      "displayName": "ICANN",
+      "aliases": [
+        "ICANN",
+        "International Conference on Artificial Neural Networks",
+        "Int. Conf. on Artificial Neural Networks"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-84a93172747e",
+      "short": "FG",
+      "displayName": "FG",
+      "aliases": [
+        "FG",
+        "International Conference on Automatic Face and Gesture Recognition",
+        "IEEE Int. Conf. on Automatic Face and Gesture Recognition"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-6ce73265f7fb",
+      "short": "ICDAR",
+      "displayName": "ICDAR",
+      "aliases": [
+        "ICDAR",
+        "International Conference on Document Analysis and Recognition",
+        "Int. Conf. on Document Analysis and Recognition"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-2af8602fecb2",
+      "short": "ILP",
+      "displayName": "ILP",
+      "aliases": [
+        "ILP",
+        "International Conference on Inductive Logic Programming",
+        "Int. Conf. on Inductive Logic Programming"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-f15873defa65",
+      "short": "KSEM",
+      "displayName": "KSEM",
+      "aliases": [
+        "KSEM",
+        "International conference on Knowledge Science, Engineering and Management",
+        "Int. conference on Knowledge Science, Engineering and Management"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-543760c5de52",
+      "short": "ICONIP",
+      "displayName": "ICONIP",
+      "aliases": [
+        "ICONIP",
+        "International Conference on Neural Information Processing",
+        "Int. Conf. on Neural Information Processing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-f0de35794a1d",
+      "short": "ICPR",
+      "displayName": "ICPR",
+      "aliases": [
+        "ICPR",
+        "International Conference on Pattern Recognition",
+        "Int. Conf. on Pattern Recognition"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-98a4861a97ee",
+      "short": "IJCB",
+      "displayName": "IJCB",
+      "aliases": [
+        "IJCB",
+        "International Joint Conference on Biometrics",
+        "Int. Joint Conf. on Biometrics"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-0411524602fc",
+      "short": "IJCNN",
+      "displayName": "IJCNN",
+      "aliases": [
+        "IJCNN",
+        "International Joint Conference on Neural Networks",
+        "Int. Joint Conf. on Neural Networks"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-49e5ac284089",
+      "short": "PRICAI",
+      "displayName": "PRICAI",
+      "aliases": [
+        "PRICAI",
+        "Pacific Rim International Conference on Artificial Intelligence",
+        "Pacific Rim Int. Conf. on Artificial Intelligence"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-a1615c4f8c83",
+      "short": "IEEE CEC",
+      "displayName": "IEEE CEC",
+      "aliases": [
+        "IEEE CEC",
+        "Congress on Evolutionary Computation"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-6dff5a27b883",
+      "short": "DAI",
+      "displayName": "DAI",
+      "aliases": [
+        "DAI",
+        "International Conference on Distributed Artificial Intelligence",
+        "Int. Conf. on Distributed Artificial Intelligence"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-8ab1636f281f",
+      "short": "PACMHCI",
+      "displayName": "PACMHCI",
+      "aliases": [
+        "PACMHCI",
+        "PACM HCI",
+        "Proc ACM Hum Comput Interact",
+        "Proceedings of the ACM on Human-Computer Interaction"
+      ],
+      "sources": [
+        "https://sigchi.org/conferences/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-7e14f145f683",
+      "short": "CSCW",
+      "displayName": "CSCW",
+      "aliases": [
+        "CSCW",
+        "ACM CSCW",
+        "Computer Supported Cooperative Work",
+        "Computer-Supported Cooperative Work and Social Computing",
+        "Conference On Computer-Supported Cooperative Work And Social Computing",
+        "ACM Conf. On Computer-Supported Cooperative Work And Social Computing"
+      ],
+      "sources": [
+        "https://archive.sigchi.org/conferences/conference-history/cscw/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-eea467208a1c",
+      "short": "CHI",
+      "displayName": "CHI",
+      "aliases": [
+        "CHI",
+        "ACM CHI",
+        "ACM CHI Conference on Human Factors in Computing Systems",
+        "CHI Conference on Human Factors in Computing Systems",
+        "Human Factors in Computing Systems",
+        "Conference on Human Factors in Computing Systems",
+        "ACM Conf. on Human Factors in Computing Systems"
+      ],
+      "sources": [
+        "https://sigchi.org/conferences/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-12717f2acf0d",
+      "short": "UbiComp",
+      "displayName": "UbiComp",
+      "aliases": [
+        "UbiComp",
+        "ACM UbiComp",
+        "UbiComp/ISWC",
+        "UbiComp ISWC",
+        "ACM International Joint Conference on Pervasive and Ubiquitous Computing",
+        "international joint conference on Pervasive and Ubiquitous Computing",
+        "ACM international joint conference on Pervasive and Ubiquitous Computing"
+      ],
+      "sources": [
+        "https://www.ubicomp.org/sc/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-7f7029650815",
+      "short": "UIST",
+      "displayName": "UIST",
+      "aliases": [
+        "UIST",
+        "ACM UIST",
+        "User Interface Software and Technology",
+        "Symposium on User Interface Software and Technology",
+        "ACM Symp. on User Interface Software and Technology"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-d571ec369af6",
+      "short": "GROUP",
+      "displayName": "GROUP",
+      "aliases": [
+        "GROUP",
+        "International Conference on Supporting Group Work",
+        "ACM Int. Conf. on Supporting Group Work"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-d210d915cb38",
+      "short": "IUI",
+      "displayName": "IUI",
+      "aliases": [
+        "IUI",
+        "International Conference on Intelligent User Interfaces",
+        "ACM Int. Conf. on Intelligent User Interfaces"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-6a53d76e0e3a",
+      "short": "ISS",
+      "displayName": "ISS",
+      "aliases": [
+        "ISS",
+        "International Conference on Interactive Surfaces and Spaces",
+        "ACM Int. Conf. on Interactive Surfaces and Spaces"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-a6d008700e8b",
+      "short": "ECSCW",
+      "displayName": "ECSCW",
+      "aliases": [
+        "ECSCW",
+        "European Conference on Computer Supported Cooperative Work",
+        "European Conf. on Computer Supported Cooperative Work"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-74f276493f96",
+      "short": "PERCOM",
+      "displayName": "PERCOM",
+      "aliases": [
+        "PERCOM",
+        "International Conference on Pervasive Computing and Communications",
+        "IEEE Int. Conf. on Pervasive Computing and Communications"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-018be1f0d5ba",
+      "short": "MobileHCI",
+      "displayName": "MobileHCI",
+      "aliases": [
+        "MobileHCI",
+        "International Conference on Mobile Human- Computer Interaction",
+        "ACM Int. Conf. on Mobile Human- Computer Interaction"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-ff61bb4d6a2a",
+      "short": "ICWSM",
+      "displayName": "ICWSM",
+      "aliases": [
+        "ICWSM",
+        "The International AAAI Conference on Web and Social Media",
+        "The Int. AAAI Conf. on Web and Social Media"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-e85e7c78ca45",
+      "short": "DIS",
+      "displayName": "DIS",
+      "aliases": [
+        "DIS",
+        "SIGCHI Conference on Designing Interactive Systems",
+        "ACM SIGCHI Conf. on Designing Interactive Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-0e07967b1a09",
+      "short": "ICMI",
+      "displayName": "ICMI",
+      "aliases": [
+        "ICMI",
+        "International Conference on Multimodal Interaction",
+        "ACM Int. Conf. on Multimodal Interaction"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-5af84d9332d5",
+      "short": "ASSETS",
+      "displayName": "ASSETS",
+      "aliases": [
+        "ASSETS",
+        "International ACM SIGACCESS Conference on Computers and Accessibility",
+        "Int. ACM SIGACCESS Conf. on Computers and Accessibility"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-025e724f6030",
+      "short": "GI",
+      "displayName": "GI",
+      "aliases": [
+        "GI",
+        "Graphics Interface"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-54ddc4bb804f",
+      "short": "UIC",
+      "displayName": "UIC",
+      "aliases": [
+        "UIC",
+        "International Conference on Ubiquitous Intelligence and Computing",
+        "IEEE Int. Conf. on Ubiquitous Intelligence and Computing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-3fc4b129b5f8",
+      "short": "IEEE World Haptics Conference",
+      "displayName": "IEEE World Haptics Conference",
+      "aliases": [
+        "IEEE World Haptics Conference",
+        "World Haptics Conference",
+        "IEEE World Haptics Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-dd36e8d8f3ce",
+      "short": "INTERACT",
+      "displayName": "INTERACT",
+      "aliases": [
+        "INTERACT",
+        "International Conference on Human- Computer Interaction of International Federation for Information Processing",
+        "Int. Conf. on Human- Computer Interaction of Int. Federation for Information Processing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-611fecf7a10c",
+      "short": "IDC",
+      "displayName": "IDC",
+      "aliases": [
+        "IDC",
+        "Interaction Design and Children",
+        "ACM Interaction Design and Children"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-29a7a43f2d2f",
+      "short": "CollaborateCom",
+      "displayName": "CollaborateCom",
+      "aliases": [
+        "CollaborateCom",
+        "International Conference on Collaborative Computing: Networking, Applications and Worksharing",
+        "Int. Conf. on Collaborative Computing: Networking, Applications and Worksharing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-9e22a64a071e",
+      "short": "CSCWD",
+      "displayName": "CSCWD",
+      "aliases": [
+        "CSCWD",
+        "International Conference on Computer Supported Cooperative Work in Design",
+        "Int. Conf. on Computer Supported Cooperative Work in Design"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-3a53b820eb92",
+      "short": "CoopIS",
+      "displayName": "CoopIS",
+      "aliases": [
+        "CoopIS",
+        "International Conference on Cooperative Information Systems",
+        "Int. Conf. on Cooperative Information Systems"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-203e5f67b471",
+      "short": "MobiQuitous",
+      "displayName": "MobiQuitous",
+      "aliases": [
+        "MobiQuitous",
+        "International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services",
+        "Int. Conf. on Mobile and Ubiquitous Systems: Computing, Networking and Services"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-168391677003",
+      "short": "AVI",
+      "displayName": "AVI",
+      "aliases": [
+        "AVI",
+        "International Working Conference on Advanced Visual Interfaces",
+        "Int. Working Conf. on Advanced Visual Interfaces"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-83f1b9177d5c",
+      "short": "GPC",
+      "displayName": "GPC",
+      "aliases": [
+        "GPC",
+        "Conference on Green, Pervasive and Cloud Computing",
+        "Conf. on Green, Pervasive and Cloud Computing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-0a26e97dcd2a",
+      "short": "ICXR",
+      "displayName": "ICXR",
+      "aliases": [
+        "ICXR",
+        "CCF International Conference on Extended Reality",
+        "CCF Int. Conf. on Extended Reality"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-2f37326452c3",
+      "short": "WWW",
+      "displayName": "WWW / TheWebConf",
+      "aliases": [
+        "WWW",
+        "ACM WWW",
+        "TheWebConf",
+        "The Web Conference",
+        "ACM Web Conference",
+        "International World Wide Web Conference",
+        "World Wide Web Conference",
+        "The Web Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": true
+    },
+    {
+      "id": "ccf-0e7878668921",
+      "short": "RTSS",
+      "displayName": "RTSS",
+      "aliases": [
+        "RTSS",
+        "Real-Time Systems Symposium",
+        "IEEE Real-Time Systems Symp."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-bbde606d4f71",
+      "short": "CogSci",
+      "displayName": "CogSci",
+      "aliases": [
+        "CogSci",
+        "Annual Meeting of the Cognitive Science Society"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-25e802c1e231",
+      "short": "BIBM",
+      "displayName": "BIBM",
+      "aliases": [
+        "BIBM",
+        "International Conference on Bioinformatics and Biomedicine",
+        "IEEE Int. Conf. on Bioinformatics and Biomedicine"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-34bf0a4c5bb4",
+      "short": "EMSOFT",
+      "displayName": "EMSOFT",
+      "aliases": [
+        "EMSOFT",
+        "International Conference on Embedded Software",
+        "Int. Conf. on Embedded Software"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-8cd36f7bfec0",
+      "short": "ISMB",
+      "displayName": "ISMB",
+      "aliases": [
+        "ISMB",
+        "International conference on Intelligent Systems for Molecular Biology",
+        "Int. conference on Intelligent Systems for Molecular Biology"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-fd8c9a7d0b36",
+      "short": "RECOMB",
+      "displayName": "RECOMB",
+      "aliases": [
+        "RECOMB",
+        "Annual International Conference on Research in Computational Molecular Biology",
+        "Annual Int. Conf. on Research in Computational Molecular Biology"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-55944c9e9fd5",
+      "short": "MICCAI",
+      "displayName": "MICCAI",
+      "aliases": [
+        "MICCAI",
+        "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+        "Int. Conf. on Medical Image Computing and Computer-Assisted Intervention"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-922fa29105bd",
+      "short": "WINE",
+      "displayName": "WINE",
+      "aliases": [
+        "WINE",
+        "Conference on Web and Internet Economics",
+        "Conf. on Web and Internet Economics"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-f41a61347160",
+      "short": "AMIA",
+      "displayName": "AMIA",
+      "aliases": [
+        "AMIA",
+        "American Medical Informatics Association Annual Symposium",
+        "American Medical Informatics Association Annual Symp."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-a2b312b62faf",
+      "short": "APBC",
+      "displayName": "APBC",
+      "aliases": [
+        "APBC",
+        "Asia Pacific Bioinformatics Conference",
+        "Asia Pacific Bioinformatics Conf."
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-275d4b30f562",
+      "short": "IEEE BigData",
+      "displayName": "IEEE BigData",
+      "aliases": [
+        "IEEE BigData",
+        "International Conference on Big Data",
+        "IEEE Int. Conf. on Big Data"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-876bdc8e714f",
+      "short": "IEEE CLOUD",
+      "displayName": "IEEE CLOUD",
+      "aliases": [
+        "IEEE CLOUD",
+        "International Conference on Cloud Computing",
+        "IEEE Int. Conf. on Cloud Computing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-6003672f3514",
+      "short": "SMC",
+      "displayName": "SMC",
+      "aliases": [
+        "SMC",
+        "International Conference on Systems, Man, and Cybernetics",
+        "IEEE Int. Conf. on Systems, Man, and Cybernetics"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-9319e6d252ca",
+      "short": "COSIT",
+      "displayName": "COSIT",
+      "aliases": [
+        "COSIT",
+        "International Conference on Spatial Information Theory",
+        "Int. Conf. on Spatial Information Theory"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-62de38812810",
+      "short": "ISBRA",
+      "displayName": "ISBRA",
+      "aliases": [
+        "ISBRA",
+        "International Symposium on Bioinformatics Research and Applications",
+        "Int. Symp. on Bioinformatics Research and Applications"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-a8a0277e2f72",
+      "short": "SAGT",
+      "displayName": "SAGT",
+      "aliases": [
+        "SAGT",
+        "International Symposium on Algorithmic Game Theory",
+        "Int. Symp. on Algorithmic Game Theory"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-d23e4abefe27",
+      "short": "SIGSPATIAL",
+      "displayName": "SIGSPATIAL",
+      "aliases": [
+        "SIGSPATIAL",
+        "Special Interest Group on Spatial Information",
+        "ACM Special Interest Group on Spatial Information"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-2afd57075b05",
+      "short": "ICIC",
+      "displayName": "ICIC",
+      "aliases": [
+        "ICIC",
+        "International Conference on Intelligent Computing",
+        "Int. Conf. on Intelligent Computing"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-f48c5ee845cf",
+      "short": "ICSS",
+      "displayName": "ICSS",
+      "aliases": [
+        "ICSS",
+        "International Conference on Service Science",
+        "Int. Conf. on Service Science"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-e70cd2961796",
+      "short": "AFT",
+      "displayName": "AFT",
+      "aliases": [
+        "AFT",
+        "Advances in Financial Technologies"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    },
+    {
+      "id": "ccf-a9fc5e8e5a67",
+      "short": "IJTCS-FAW",
+      "displayName": "IJTCS-FAW",
+      "aliases": [
+        "IJTCS-FAW",
+        "International Joint Conference on Theoretical Computer Science - Frontier of Algorithmic Wisdom",
+        "Int. Joint Conf. on Theoretical Computer Science - Frontier of Algorithmic Wisdom"
+      ],
+      "sources": [
+        "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+      ],
+      "curated": false
+    }
+  ],
+  "relations": [
+    {
+      "aliases": [
+        "Proceedings of the VLDB Endowment",
+        "PVLDB",
+        "Proc VLDB Endow"
+      ],
+      "source": "https://www.vldb.org/pvldb/vol17/FrontMatterVol17No13.pdf",
+      "scope": "conference-linked",
+      "targetId": "ccf-c62f1743e0a0"
+    },
+    {
+      "aliases": [
+        "Proceedings of the ACM on Management of Data",
+        "PACMMOD",
+        "Proc ACM Manag Data"
+      ],
+      "source": "https://2026.sigmod.org/calls_papers_sigmod_research.shtml",
+      "scope": "conference-linked",
+      "targetId": "ccf-bed71073ff60"
+    },
+    {
+      "aliases": [
+        "Proceedings of the ACM on Interactive Mobile Wearable and Ubiquitous Technologies",
+        "IMWUT",
+        "Proc ACM Interact Mob Wearable Ubiquitous Technol"
+      ],
+      "source": "https://ubicomp.hosting.acm.org/ubicompiswc2026_wp/imwut-papers/",
+      "scope": "conference-linked",
+      "targetId": "ccf-12717f2acf0d"
+    },
+    {
+      "aliases": [
+        "PACMPL",
+        "PACM PL",
+        "Proc ACM Program Lang",
+        "Proceedings of the ACM on Programming Languages",
+        "Proceedings of the ACM Programming Languages"
+      ],
+      "tracks": {
+        "OOPSLA": "ccf-e95fb4a3d6d6",
+        "OOPSLA1": "ccf-e95fb4a3d6d6",
+        "OOPSLA2": "ccf-e95fb4a3d6d6",
+        "POPL": "ccf-9225fd135730",
+        "PLDI": "ccf-f3f6f5ce5cdc",
+        "ICFP": "ccf-e292f12bea62"
+      },
+      "source": "https://blog.sigplan.org/2022/08/08/pldi-will-join-pacmpl/",
+      "scope": "explicit-track"
+    },
+    {
+      "aliases": [
+        "PACMHCI",
+        "PACM HCI",
+        "Proc ACM Hum Comput Interact",
+        "Proceedings of the ACM on Human-Computer Interaction"
+      ],
+      "tracks": {
+        "CSCW": "ccf-7e14f145f683",
+        "CSCW1": "ccf-7e14f145f683",
+        "CSCW2": "ccf-7e14f145f683",
+        "GROUP": "ccf-d571ec369af6",
+        "ISS": "ccf-6a53d76e0e3a"
+      },
+      "source": "https://sigchi.org/conferences/",
+      "scope": "explicit-track"
+    }
+  ],
+  "sameJournals": [
+    {
+      "issns": [
+        "2212-473X",
+        "0267-3649"
+      ],
+      "evidence": "同名 Computer Law & Security Review：JCR2025-UTF8.csv 第 2876 行用 2212-473X，FQBJCR2025-UTF8.csv 第 4476 行（中科院）仍用旧 ISSN 0267-3649"
+    },
+    {
+      "issns": [
+        "1386-4564",
+        "2948-2984"
+      ],
+      "evidence": "Springer 期刊 10791 于 2024 年由 Information Retrieval Journal 更名为 Discover Computing；JCR2025-UTF8.csv 第 6701、10282 行分列新旧名称",
+      "source": "https://link.springer.com/journal/10791",
+      "preferLater": true
+    }
+  ],
+  "journalAliases": [
+    {
+      "issn": "0027-8424",
+      "aliases": [
+        "Proceedings of the National Academy of Sciences",
+        "Proceedings of the National Academy of Sciences USA",
+        "PNAS",
+        "Proc. Natl. Acad. Sci. USA"
+      ],
+      "source": "https://www.pnas.org/"
+    }
+  ],
+  "notes": [
+    "Official spelling variants remove publisher prefixes or abbreviate Conference/Symposium; curated names cite primary sources.",
+    "PMLR/LNCS/LNAI are multi-conference series and never mapped to a single conference."
+  ]
+}

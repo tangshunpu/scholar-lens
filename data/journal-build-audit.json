@@ -1,0 +1,140 @@
+{
+  "counts": {
+    "journals": 8765,
+    "excludedJournals": 14296,
+    "scope": {
+      "medicine": 5664,
+      "science": 4342,
+      "stem": 4350,
+      "humanities-social": 8632,
+      "ccf": 9,
+      "unknown": 64
+    },
+    "cas": 8154,
+    "jcr": 8558,
+    "xr": 8404,
+    "xrWarnings": 24,
+    "xrConferences": 15,
+    "impactFactors": 8590,
+    "missingIFSourceRows": 49,
+    "missingQuartileSourceRows": 2306,
+    "sourceRows": {
+      "cas": 21772,
+      "jcr": 22643,
+      "xr": 22299
+    }
+  },
+  "unparsedQuartiles": [],
+  "xrIssnBridges": [],
+  "sameTitleDifferentISSN": {
+    "space science and technology": [
+      [
+        "2692-7659"
+      ],
+      [
+        "1561-8889",
+        "2518-1459"
+      ]
+    ],
+    "computer law and security review": [
+      [
+        "2212-473X",
+        "2212-4748"
+      ],
+      [
+        "0267-3649"
+      ]
+    ],
+    "mutation research fundamental and molecular mechanisms of mutagenesis": [
+      [
+        "0027-5107",
+        "1873-135X"
+      ],
+      [
+        "1386-1964",
+        "1879-2871"
+      ]
+    ],
+    "journal of consumer sciences": [
+      [
+        "3078-4050"
+      ],
+      [
+        "0378-5254"
+      ]
+    ],
+    "intelligent systems in accounting finance and management": [
+      [
+        "1550-1949",
+        "2160-0074"
+      ],
+      [
+        "1055-615X",
+        "1099-1174"
+      ]
+    ],
+    "journal of computer science and technology": [
+      [
+        "1000-9000",
+        "1860-4749"
+      ],
+      [
+        "1666-6038",
+        "1666-6046"
+      ]
+    ],
+    "chemistry and chemical technology": [
+      [
+        "1996-7098",
+        "2415-7163"
+      ],
+      [
+        "1996-4196"
+      ]
+    ],
+    "turkish journal of islamic economics tujise": [
+      [
+        "2587-232X"
+      ],
+      [
+        "2147-9054",
+        "2148-3809"
+      ]
+    ],
+    "philippine agricultural scientist": [
+      [
+        "1655-9711",
+        "3082-5547"
+      ],
+      [
+        "0031-7454"
+      ]
+    ],
+    "korea journal": [
+      [
+        "2733-9343"
+      ],
+      [
+        "0023-3900"
+      ]
+    ],
+    "occasional papers on religion in eastern europe": [
+      [
+        "2693-2229"
+      ],
+      [
+        "1069-4781"
+      ]
+    ],
+    "american literary realism": [
+      [
+        "0002-9823",
+        "2326-9235"
+      ],
+      [
+        "1540-3084",
+        "1940-5103"
+      ]
+    ]
+  }
+}

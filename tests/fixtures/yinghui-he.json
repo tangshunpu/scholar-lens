@@ -1,0 +1,62 @@
+{
+  "source": "https://scholar.google.com/citations?user=ldVs-W0AAAAJ",
+  "observed": "2026-10-24",
+  "scope": "Nine visible rows transcribed for author matching regression; not the full profile. Venue metadata omitted.",
+  "profile": "Yinghui He (何映晖)",
+  "papers": [
+    [
+      "Collaborative cloud and edge computing for latency minimization",
+      "J Ren, G Yu, Y He, GY Li",
+      2019,
+      836
+    ],
+    [
+      "Latency optimization for resource allocation in mobile-edge computation offloading",
+      "J Ren, G Yu, Y Cai, Y He",
+      2018,
+      532
+    ],
+    [
+      "Scheduling for cellular federated edge learning with importance and channel awareness",
+      "J Ren, Y He, D Wen, G Yu, K Huang, D Guo",
+      2020,
+      300
+    ],
+    [
+      "RIS-assisted communication radar coexistence: Joint beamforming design and analysis",
+      "Y He, Y Cai, H Mao, G Yu",
+      2022,
+      268
+    ],
+    [
+      "D2D communications meet mobile edge computing for enhanced computation capacity in cellular networks",
+      "Y He, J Ren, G Yu, Y Cai",
+      2019,
+      268
+    ],
+    [
+      "An edge-computing based architecture for mobile augmented reality",
+      "J Ren, Y He, G Huang, G Yu, Y Cai, Z Zhang",
+      2019,
+      253
+    ],
+    [
+      "Integrated sensing, computation, and communication: System framework and performance optimization",
+      "Y He, G Yu, Y Cai, H Luo",
+      2024,
+      159
+    ],
+    [
+      "Partial offloading for latency minimization in mobile-edge computing",
+      "J Ren, G Yu, Y Cai, Y He, F Qu",
+      2017,
+      100
+    ],
+    [
+      "SenCom: Integrated Sensing and Communication with Practical WiFi",
+      "Y He, J Liu, M Li, G Yu, J Han, K Ren",
+      2023,
+      89
+    ]
+  ]
+}

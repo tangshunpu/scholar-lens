@@ -1,0 +1,329 @@
+{
+  "version": "1.2.3",
+  "date": "2026-10-24",
+  "unitTestsPassed": 30,
+  "browser": {
+    "checks": [
+      "fresh MV3 install shows bundled CAS/JCR/IF without uploads; dedup list, stats agree",
+      "CCF A filter and metrics agree",
+      "one highlight-only switch gates filtering; role selection alone only highlights",
+      "year range excludes earlier papers",
+      "venue focus checkbox filters paper list",
+      "manual corresponding-author confirmation persists and filters",
+      "CSV preview is read-only; commit updates live metrics, separate years and categories",
+      "invalid import leaves existing data intact",
+      "catalog type conflict is rejected before writing user storage",
+      "CSV export includes filtered papers, metadata and provenance",
+      "load-all handles dynamic rows and stops on disabled Show more",
+      "disable fully cleans annotations, highlighting and filters; re-enable works",
+      "external Highlighter compatibility avoids duplicate name marks and reads highlight selection",
+      "settings responsive at 390 px without horizontal overflow",
+      "search page metadata, citations and author links are preserved",
+      "search-page author filtering works",
+      "changed metadata invalidates prior annotations",
+      "popup loads actual local storage",
+      "no page or console errors across options, profile, search and popup"
+    ],
+    "errors": [],
+    "extensionId": "aideeoocipphhamophloomchammlnpkh"
+  },
+  "compatibility": {
+    "checks": [
+      "three real extensions expose one focus switch and visible role checkboxes synchronized with legacy controls",
+      "zero selected external roles produces zero highlighted papers, stats and rows",
+      "switch off restores all deduplicated papers regardless of external role choices",
+      "external role changes, unified rows, statistics and CSV agree",
+      "legacy venue CSS cannot override unified visibility",
+      "legacy inline visibility cannot silently hide papers outside the unified filter",
+      "idle page has no mutation feedback loop",
+      "disabling restores legacy controls and their unchanged original checkbox state",
+      "re-enabling adopts existing external focus state without creating duplicate controls"
+    ],
+    "originalHighlighter": "2.4.0",
+    "originalVenueStats": "0.1.15",
+    "mutationsIn2500ms": 0,
+    "errors": []
+  },
+  "layout": {
+    "checks": [
+      "1920px: enabling extension preserves native content center, table width, citation sidebar, header and body spacing exactly",
+      "direct role choices, MobiCom recognition and distinct high-contrast CCF A / CAS 1 badges remain available",
+      "collapse / reopen never moves content; manual collapse survives resizing",
+      "1600px: insufficient margin auto-collapses without shifting Scholar; launcher fits existing whitespace",
+      "1440px: insufficient margin auto-collapses without shifting Scholar; launcher fits existing whitespace",
+      "1280px: insufficient margin auto-collapses without shifting Scholar; launcher fits existing whitespace",
+      "no-room expansion appears below original content, preserves horizontal geometry and restores reading position on close",
+      "390px: launcher and panel appear after content when even a side tab cannot fit, without overlay or horizontal overflow",
+      "native container resizing is observed: rail closes and reopens as whitespace changes without a window resize",
+      "disable and re-enable clean up observers / controls and retain the original centered geometry",
+      "search results keep their native width and offset; full-width Scholar header is neither resized nor covered",
+      "settled layout has no mutation feedback loop or console / page errors"
+    ],
+    "errors": [],
+    "palette": {
+      ".sl-ccf-a": {
+        "background": "rgb(180, 35, 54)",
+        "color": "rgb(255, 255, 255)",
+        "weight": "700"
+      },
+      ".sl-cas-one": {
+        "background": "rgb(109, 40, 217)",
+        "color": "rgb(255, 255, 255)",
+        "weight": "700"
+      }
+    },
+    "measurements": [
+      {
+        "width": 1920,
+        "before": {
+          "main": {
+            "left": 400,
+            "width": 1120,
+            "center": 960
+          },
+          "#gsc_a_tw": {
+            "left": 400,
+            "width": 760,
+            "center": 780
+          },
+          "#gsc_rsb": {
+            "left": 1210,
+            "width": 300,
+            "center": 1360
+          },
+          "body > header": {
+            "left": 0,
+            "width": 1920,
+            "center": 960
+          },
+          "bodyPadding": "0px",
+          "bodyMargin": "0px"
+        },
+        "after": {
+          "main": {
+            "left": 400,
+            "width": 1120,
+            "center": 960
+          },
+          "#gsc_a_tw": {
+            "left": 400,
+            "width": 760,
+            "center": 780
+          },
+          "#gsc_rsb": {
+            "left": 1210,
+            "width": 300,
+            "center": 1360
+          },
+          "body > header": {
+            "left": 0,
+            "width": 1920,
+            "center": 960
+          },
+          "bodyPadding": "0px",
+          "bodyMargin": "0px"
+        }
+      },
+      {
+        "width": 1600,
+        "before": {
+          "main": {
+            "left": 240,
+            "width": 1120,
+            "center": 800
+          },
+          "#gsc_a_tw": {
+            "left": 240,
+            "width": 760,
+            "center": 620
+          },
+          "#gsc_rsb": {
+            "left": 1050,
+            "width": 300,
+            "center": 1200
+          },
+          "body > header": {
+            "left": 0,
+            "width": 1600,
+            "center": 800
+          },
+          "bodyPadding": "0px",
+          "bodyMargin": "0px"
+        },
+        "after": {
+          "main": {
+            "left": 240,
+            "width": 1120,
+            "center": 800
+          },
+          "#gsc_a_tw": {
+            "left": 240,
+            "width": 760,
+            "center": 620
+          },
+          "#gsc_rsb": {
+            "left": 1050,
+            "width": 300,
+            "center": 1200
+          },
+          "body > header": {
+            "left": 0,
+            "width": 1600,
+            "center": 800
+          },
+          "bodyPadding": "0px",
+          "bodyMargin": "0px"
+        }
+      },
+      {
+        "width": 1440,
+        "before": {
+          "main": {
+            "left": 160,
+            "width": 1120,
+            "center": 720
+          },
+          "#gsc_a_tw": {
+            "left": 160,
+            "width": 760,
+            "center": 540
+          },
+          "#gsc_rsb": {
+            "left": 970,
+            "width": 300,
+            "center": 1120
+          },
+          "body > header": {
+            "left": 0,
+            "width": 1440,
+            "center": 720
+          },
+          "bodyPadding": "0px",
+          "bodyMargin": "0px"
+        },
+        "after": {
+          "main": {
+            "left": 160,
+            "width": 1120,
+            "center": 720
+          },
+          "#gsc_a_tw": {
+            "left": 160,
+            "width": 760,
+            "center": 540
+          },
+          "#gsc_rsb": {
+            "left": 970,
+            "width": 300,
+            "center": 1120
+          },
+          "body > header": {
+            "left": 0,
+            "width": 1440,
+            "center": 720
+          },
+          "bodyPadding": "0px",
+          "bodyMargin": "0px"
+        }
+      },
+      {
+        "width": 1280,
+        "before": {
+          "main": {
+            "left": 80,
+            "width": 1120,
+            "center": 640
+          },
+          "#gsc_a_tw": {
+            "left": 80,
+            "width": 760,
+            "center": 460
+          },
+          "#gsc_rsb": {
+            "left": 890,
+            "width": 300,
+            "center": 1040
+          },
+          "body > header": {
+            "left": 0,
+            "width": 1280,
+            "center": 640
+          },
+          "bodyPadding": "0px",
+          "bodyMargin": "0px"
+        },
+        "after": {
+          "main": {
+            "left": 80,
+            "width": 1120,
+            "center": 640
+          },
+          "#gsc_a_tw": {
+            "left": 80,
+            "width": 760,
+            "center": 460
+          },
+          "#gsc_rsb": {
+            "left": 890,
+            "width": 300,
+            "center": 1040
+          },
+          "body > header": {
+            "left": 0,
+            "width": 1280,
+            "center": 640
+          },
+          "bodyPadding": "0px",
+          "bodyMargin": "0px"
+        }
+      }
+    ]
+  },
+  "loadingAndHighlight": {
+    "checks": [
+      "default auto Show more loads all three pages while panel is collapsed, waits through temporary disabled state and updates full statistics without moving Scholar",
+      "export waits for loading, includes the final page and states its complete filtered scope",
+      "role multi-select paints every cell of matching papers, removes deselected row fills and preserves CCF / CAS badge colors",
+      "whole-row highlighting and Highlight only maintain matching visible rows and statistics",
+      "stop persists despite another clicker; resume finishes remaining pages without duplicate requests or stale-loop cancellation",
+      "an already-disabled button on page arrival is allowed to finish its in-flight request before more pages load",
+      "a terminal response that removes Show more without adding rows completes cleanly",
+      "a stalled disabled request times out once and is reported as incomplete, never as fully loaded",
+      "optional auto-load preference is honored and manual load remains available",
+      "disable removes all whole-row colors and role attributes"
+    ],
+    "errors": []
+  },
+  "browserPath": "Existing Playwright and isolated Chromium used.",
+  "liveScholarStatus": "Offline fixtures verified. Live Scholar end-to-end remains unverified due to previously encountered Google traffic verification.",
+  "loading": {
+    "checks": [
+      "default auto Show more loads all three pages while panel is collapsed, waits through temporary disabled state and updates full statistics without moving Scholar",
+      "export waits for loading, includes the final page and states its complete filtered scope",
+      "role multi-select paints every cell of matching papers, removes deselected row fills and preserves CCF / CAS badge colors",
+      "whole-row highlighting and Highlight only maintain matching visible rows and statistics",
+      "stop persists despite another clicker; resume finishes remaining pages without duplicate requests or stale-loop cancellation",
+      "an already-disabled button on page arrival is allowed to finish its in-flight request before more pages load",
+      "a terminal response that removes Show more without adding rows completes cleanly",
+      "a stalled disabled request times out once and is reported as incomplete, never as fully loaded",
+      "optional auto-load preference is honored and manual load remains available",
+      "disable removes all whole-row colors and role attributes"
+    ],
+    "errors": []
+  },
+  "authors": {
+    "checks": [
+      "nine transcribed real author lists match bilingual profile with zero manual aliases",
+      "candidate spellings and observed counts are visible; surname-first inference is opt-in",
+      "first-author filter keeps four rows and 784 citations; all cells highlight and CSV agrees",
+      "candidate opt-out persists on reload; re-enabling immediately restores whole-row highlights",
+      "newly loaded different full name sharing initials revokes inferred highlights and explains empty focus",
+      "manual paper-level role confirmation resolves only that paper, not all same-initial names",
+      "duplicate initials within one author list withhold that row and show an ambiguity badge",
+      "candidate UI fits 390px; no page or console errors"
+    ],
+    "errors": [],
+    "scope": "Nine visible rows transcribed for author matching regression; not the full profile. Venue metadata omitted."
+  },
+  "onlineValidation": "Read the existing live v1.2.2 page and transcribed nine author lists. Browser control subsequently interrupted; v1.2.3 was verified in isolated MV3 fixtures, not claimed as reloaded in the user tab."
+}
